@@ -5,3 +5,5 @@
 本仓库是用来存储订阅的节点数据，里面的节点数据取自网上的公开节点，大家可以选择仓库文件前去订阅。
 
 [Telegram频道](https://t.me/GridCente)
+
+[Telegram群组](https://t.me/LoafingCenter)
