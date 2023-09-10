@@ -1,0 +1,399 @@
+#  Hi,We are free ,please avoid fraud.
+#  Generated at 2022-12-12 00:00 by WekiYun
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  nameserver:
+    - tls://dot.pub
+    - tls://dns.alidns.com
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
+proxies:
+  - {"name":"剩余流量：1152.94 GB","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.guolicheng.cyou"}}}
+  - {"name":"距离下次重置剩余：29 天","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.guolicheng.cyou"}}}
+  - {"name":"套餐到期：2023-10-09","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.guolicheng.cyou"}}}
+  - {"name":"官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.guolicheng.cyou"}}}
+  - {"name":"日本path | 解锁流媒体","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/jp1?ed=2048","headers":{"host":"jp1.guolicheng.cyou"}}}
+  - {"name":"荷兰10G | 解锁流媒体","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/nl1?ed=2048","headers":{"host":"nl1.guolicheng.cyou"}}}
+  - {"name":"台湾Hinet-1号线路 | 解锁流媒体","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.guolicheng.cyou"}}}
+  - {"name":"美国洛杉矶 | 解锁流媒体","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/us1?ed=2048","headers":{"host":"us1.guolicheng.cyou"}}}
+  - {"name":"美国洛杉矶2号 | 解锁流媒体","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/us2?ed=2048","headers":{"host":"us2.guolicheng.cyou"}}}
+  - {"name":"美国凤凰城 | 解锁流媒体","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/us3?ed=2048","headers":{"host":"us3.guolicheng.cyou"}}}
+  - {"name":"德国 | 解锁流媒体","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/de?ed=2048","headers":{"host":"de.guolicheng.cyou"}}}
+  - {"name":"法国 | 解锁流媒体","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/fr?ed=2048","headers":{"host":"fr.guolicheng.cyou"}}}
+  - {"name":"土耳其","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/guolicheng/tr1?ed=2048","headers":{"host":"tr1.guolicheng.cyou"}}}
+  - {"name":"越南-1号\r","type":"trojan","server":"103.173.255.21","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-vn.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"越南-2号\r","type":"trojan","server":"103.81.84.173","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-vn.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"越南-3号\r","type":"trojan","server":"103.81.85.238","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-vn.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"越南-4号\r","type":"trojan","server":"103.173.255.234","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-vn.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"土耳其Tr\r","type":"trojan","server":"213.226.117.125","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-tr.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡Gcore-广移 | 解锁流媒体\r","type":"trojan","server":"223.95.40.6","port":38000,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-sg1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国洛杉矶-1号 | 解锁流媒体\r","type":"trojan","server":"108.181.24.37","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-us1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国洛杉矶-2号 | 解锁流媒体\r","type":"trojan","server":"108.181.22.161","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-us2.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国凤凰城-3号 | 解锁流媒体\r","type":"trojan","server":"141.193.68.81","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-us3.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"德国 | 解锁流媒体-Tr\r","type":"trojan","server":"89.163.220.99","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-de1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾Hinet | 解锁流媒体\r","type":"trojan","server":"download1tw.windowsupdatea.com","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-tw1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港HKT | 解锁流媒体\r","type":"trojan","server":"download1hkt.windowsupdatea.com","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-hkt1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港HKT2 | 解锁流媒体\r","type":"trojan","server":"download2hkt.windowsupdatea.com","port":443,"udp":true,"password":"e0ca72b2-eb7c-4498-b05e-28a3681bacbf","sni":"glc-hkt2.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 剩余流量：1152.94 GB
+      - 距离下次重置剩余：29 天
+      - 套餐到期：2023-10-09
+      - '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo'
+      - 日本path | 解锁流媒体
+      - 荷兰10G | 解锁流媒体
+      - 台湾Hinet-1号线路 | 解锁流媒体
+      - 美国洛杉矶 | 解锁流媒体
+      - 美国洛杉矶2号 | 解锁流媒体
+      - 美国凤凰城 | 解锁流媒体
+      - 德国 | 解锁流媒体
+      - 法国 | 解锁流媒体
+      - 土耳其
+      - "越南-1号\r"
+      - "越南-2号\r"
+      - "越南-3号\r"
+      - "越南-4号\r"
+      - "土耳其Tr\r"
+      - "新加坡Gcore-广移 | 解锁流媒体\r"
+      - "美国洛杉矶-1号 | 解锁流媒体\r"
+      - "美国洛杉矶-2号 | 解锁流媒体\r"
+      - "美国凤凰城-3号 | 解锁流媒体\r"
+      - "德国 | 解锁流媒体-Tr\r"
+      - "台湾Hinet | 解锁流媒体\r"
+      - "香港HKT | 解锁流媒体\r"
+      - "香港HKT2 | 解锁流媒体\r"
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+      - 剩余流量：1152.94 GB
+      - 距离下次重置剩余：29 天
+      - 套餐到期：2023-10-09
+      - '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo'
+      - 日本path | 解锁流媒体
+      - 荷兰10G | 解锁流媒体
+      - 台湾Hinet-1号线路 | 解锁流媒体
+      - 美国洛杉矶 | 解锁流媒体
+      - 美国洛杉矶2号 | 解锁流媒体
+      - 美国凤凰城 | 解锁流媒体
+      - 德国 | 解锁流媒体
+      - 法国 | 解锁流媒体
+      - 土耳其
+      - "越南-1号\r"
+      - "越南-2号\r"
+      - "越南-3号\r"
+      - "越南-4号\r"
+      - "土耳其Tr\r"
+      - "新加坡Gcore-广移 | 解锁流媒体\r"
+      - "美国洛杉矶-1号 | 解锁流媒体\r"
+      - "美国洛杉矶-2号 | 解锁流媒体\r"
+      - "美国凤凰城-3号 | 解锁流媒体\r"
+      - "德国 | 解锁流媒体-Tr\r"
+      - "台湾Hinet | 解锁流媒体\r"
+      - "香港HKT | 解锁流媒体\r"
+      - "香港HKT2 | 解锁流媒体\r"
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 剩余流量：1152.94 GB
+      - 距离下次重置剩余：29 天
+      - 套餐到期：2023-10-09
+      - '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo'
+      - 日本path | 解锁流媒体
+      - 荷兰10G | 解锁流媒体
+      - 台湾Hinet-1号线路 | 解锁流媒体
+      - 美国洛杉矶 | 解锁流媒体
+      - 美国洛杉矶2号 | 解锁流媒体
+      - 美国凤凰城 | 解锁流媒体
+      - 德国 | 解锁流媒体
+      - 法国 | 解锁流媒体
+      - 土耳其
+      - "越南-1号\r"
+      - "越南-2号\r"
+      - "越南-3号\r"
+      - "越南-4号\r"
+      - "土耳其Tr\r"
+      - "新加坡Gcore-广移 | 解锁流媒体\r"
+      - "美国洛杉矶-1号 | 解锁流媒体\r"
+      - "美国洛杉矶-2号 | 解锁流媒体\r"
+      - "美国凤凰城-3号 | 解锁流媒体\r"
+      - "德国 | 解锁流媒体-Tr\r"
+      - "台湾Hinet | 解锁流媒体\r"
+      - "香港HKT | 解锁流媒体\r"
+      - "香港HKT2 | 解锁流媒体\r"
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 剩余流量：1152.94 GB
+      - 距离下次重置剩余：29 天
+      - 套餐到期：2023-10-09
+      - '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo'
+      - 日本path | 解锁流媒体
+      - 荷兰10G | 解锁流媒体
+      - 台湾Hinet-1号线路 | 解锁流媒体
+      - 美国洛杉矶 | 解锁流媒体
+      - 美国洛杉矶2号 | 解锁流媒体
+      - 美国凤凰城 | 解锁流媒体
+      - 德国 | 解锁流媒体
+      - 法国 | 解锁流媒体
+      - 土耳其
+      - "越南-1号\r"
+      - "越南-2号\r"
+      - "越南-3号\r"
+      - "越南-4号\r"
+      - "土耳其Tr\r"
+      - "新加坡Gcore-广移 | 解锁流媒体\r"
+      - "美国洛杉矶-1号 | 解锁流媒体\r"
+      - "美国洛杉矶-2号 | 解锁流媒体\r"
+      - "美国凤凰城-3号 | 解锁流媒体\r"
+      - "德国 | 解锁流媒体-Tr\r"
+      - "台湾Hinet | 解锁流媒体\r"
+      - "香港HKT | 解锁流媒体\r"
+      - "香港HKT2 | 解锁流媒体\r"
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 剩余流量：1152.94 GB
+      - 距离下次重置剩余：29 天
+      - 套餐到期：2023-10-09
+      - '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo'
+      - 日本path | 解锁流媒体
+      - 荷兰10G | 解锁流媒体
+      - 台湾Hinet-1号线路 | 解锁流媒体
+      - 美国洛杉矶 | 解锁流媒体
+      - 美国洛杉矶2号 | 解锁流媒体
+      - 美国凤凰城 | 解锁流媒体
+      - 德国 | 解锁流媒体
+      - 法国 | 解锁流媒体
+      - 土耳其
+      - "越南-1号\r"
+      - "越南-2号\r"
+      - "越南-3号\r"
+      - "越南-4号\r"
+      - "土耳其Tr\r"
+      - "新加坡Gcore-广移 | 解锁流媒体\r"
+      - "美国洛杉矶-1号 | 解锁流媒体\r"
+      - "美国洛杉矶-2号 | 解锁流媒体\r"
+      - "美国凤凰城-3号 | 解锁流媒体\r"
+      - "德国 | 解锁流媒体-Tr\r"
+      - "台湾Hinet | 解锁流媒体\r"
+      - "香港HKT | 解锁流媒体\r"
+      - "香港HKT2 | 解锁流媒体\r"
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 剩余流量：1152.94 GB
+      - 距离下次重置剩余：29 天
+      - 套餐到期：2023-10-09
+      - '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo'
+      - 日本path | 解锁流媒体
+      - 荷兰10G | 解锁流媒体
+      - 台湾Hinet-1号线路 | 解锁流媒体
+      - 美国洛杉矶 | 解锁流媒体
+      - 美国洛杉矶2号 | 解锁流媒体
+      - 美国凤凰城 | 解锁流媒体
+      - 德国 | 解锁流媒体
+      - 法国 | 解锁流媒体
+      - 土耳其
+      - "越南-1号\r"
+      - "越南-2号\r"
+      - "越南-3号\r"
+      - "越南-4号\r"
+      - "土耳其Tr\r"
+      - "新加坡Gcore-广移 | 解锁流媒体\r"
+      - "美国洛杉矶-1号 | 解锁流媒体\r"
+      - "美国洛杉矶-2号 | 解锁流媒体\r"
+      - "美国凤凰城-3号 | 解锁流媒体\r"
+      - "德国 | 解锁流媒体-Tr\r"
+      - "台湾Hinet | 解锁流媒体\r"
+      - "香港HKT | 解锁流媒体\r"
+      - "香港HKT2 | 解锁流媒体\r"
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 剩余流量：1152.94 GB
+      - 距离下次重置剩余：29 天
+      - 套餐到期：2023-10-09
+      - '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo'
+      - 日本path | 解锁流媒体
+      - 荷兰10G | 解锁流媒体
+      - 台湾Hinet-1号线路 | 解锁流媒体
+      - 美国洛杉矶 | 解锁流媒体
+      - 美国洛杉矶2号 | 解锁流媒体
+      - 美国凤凰城 | 解锁流媒体
+      - 德国 | 解锁流媒体
+      - 法国 | 解锁流媒体
+      - 土耳其
+      - "越南-1号\r"
+      - "越南-2号\r"
+      - "越南-3号\r"
+      - "越南-4号\r"
+      - "土耳其Tr\r"
+      - "新加坡Gcore-广移 | 解锁流媒体\r"
+      - "美国洛杉矶-1号 | 解锁流媒体\r"
+      - "美国洛杉矶-2号 | 解锁流媒体\r"
+      - "美国凤凰城-3号 | 解锁流媒体\r"
+      - "德国 | 解锁流媒体-Tr\r"
+      - "台湾Hinet | 解锁流媒体\r"
+      - "香港HKT | 解锁流媒体\r"
+      - "香港HKT2 | 解锁流媒体\r"
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 剩余流量：1152.94 GB
+      - 距离下次重置剩余：29 天
+      - 套餐到期：2023-10-09
+      - '官网:https://guolicheng.cc   |   TG: https://t.me/Goguolichengo'
+      - 日本path | 解锁流媒体
+      - 荷兰10G | 解锁流媒体
+      - 台湾Hinet-1号线路 | 解锁流媒体
+      - 美国洛杉矶 | 解锁流媒体
+      - 美国洛杉矶2号 | 解锁流媒体
+      - 美国凤凰城 | 解锁流媒体
+      - 德国 | 解锁流媒体
+      - 法国 | 解锁流媒体
+      - 土耳其
+      - "越南-1号\r"
+      - "越南-2号\r"
+      - "越南-3号\r"
+      - "越南-4号\r"
+      - "土耳其Tr\r"
+      - "新加坡Gcore-广移 | 解锁流媒体\r"
+      - "美国洛杉矶-1号 | 解锁流媒体\r"
+      - "美国洛杉矶-2号 | 解锁流媒体\r"
+      - "美国凤凰城-3号 | 解锁流媒体\r"
+      - "德国 | 解锁流媒体-Tr\r"
+      - "台湾Hinet | 解锁流媒体\r"
+      - "香港HKT | 解锁流媒体\r"
+      - "香港HKT2 | 解锁流媒体\r"
+
+rule-providers:
+  applications:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
+    interval: 86400
+    path: ./ruleset/applications.yaml
+  private:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+    interval: 86400
+    path: ./ruleset/private.yaml
+  icloud:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
+    interval: 86400
+    path: ./ruleset/icloud.yaml
+  apple:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
+    interval: 86400
+    path: ./ruleset/apple.yaml
+  google:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt
+    interval: 86400
+    path: ./ruleset/google.yaml
+  direct:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
+    interval: 86400
+    path: ./ruleset/direct.yaml
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+    interval: 86400
+    path: ./ruleset/lancidr.yaml
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
+    interval: 86400
+    path: ./ruleset/cncidr.yaml
+  reject:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    interval: 86400
+    path: ./ruleset/reject.yaml
+  proxy:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+    interval: 86400
+    path: ./ruleset/proxy.yaml
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
+    interval: 86400
+    path: ./ruleset/telegramcidr.yaml
+rules:
+  - RULE-SET,applications,🎯 全球直连
+  - RULE-SET,private,🎯 全球直连
+  - RULE-SET,icloud,🎯 全球直连
+  - RULE-SET,apple,🎯 全球直连
+  - RULE-SET,google,🎯 全球直连
+  - RULE-SET,direct,🎯 全球直连
+  - RULE-SET,lancidr,🎯 全球直连
+  - RULE-SET,cncidr,🎯 全球直连
+  - RULE-SET,reject,🛑 全球拦截
+  - RULE-SET,proxy,🗿 节点选择
+  - RULE-SET,telegramcidr,🗿 节点选择
+  - DOMAIN,clash.razord.top,🎯 全球直连
+  - DOMAIN,yacd.haishan.me,🎯 全球直连
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
