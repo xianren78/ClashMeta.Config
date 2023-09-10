@@ -1,0 +1,714 @@
+#  Hi,We are free ,please avoid fraud.
+#  Generated at 2022-12-12 00:00 by WekiYun
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  nameserver:
+    - tls://dot.pub
+    - tls://dns.alidns.com
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
+proxies:
+  - {"name":"剩余流量：-1.05 GB\r","type":"ss","server":"hk1.network-cdn-gw.cc","port":47795,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"套餐到期：长期有效\r","type":"ss","server":"hk1.network-cdn-gw.cc","port":47795,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-01\r","type":"ss","server":"hk1.network-cdn-gw.cc","port":47795,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-02\r","type":"ss","server":"hk2.network-cdn-gw.cc","port":47790,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-03\r","type":"ss","server":"hk3.network-cdn-gw.cc","port":47756,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-04\r","type":"ss","server":"hk4.network-cdn-gw.cc","port":47759,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-05\r","type":"ss","server":"hk5.network-cdn-gw.cc","port":47705,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-06\r","type":"ss","server":"hk6.network-cdn-gw.cc","port":47706,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-07\r","type":"ss","server":"hk7.network-cdn-gw.cc","port":47707,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-08\r","type":"ss","server":"hk8.network-cdn-gw.cc","port":47708,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-09\r","type":"ss","server":"hk9.network-cdn-gw.cc","port":47709,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Basic专线-10\r","type":"ss","server":"hk11.network-cdn-gw.cc","port":47711,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"韩国-IEPL-Basic专线-01\r","type":"ss","server":"kr03.network-cdn-gw.cc","port":41115,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"韩国-EIPL-Pro专线-01\r","type":"ss","server":"kr01.network-cdn-gw.cc","port":41117,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"泰国-IEPL-Pro专线-01\r","type":"ss","server":"tk.network-cdn-gw.cc","port":41116,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"越南-IEPL-Basic专线-01\r","type":"ss","server":"vn01.network-cdn-gw.cc","port":20001,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"越南-IEPL-Pro专线-02\r","type":"ss","server":"vn02.network-cdn-gw.cc","port":20002,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"英国-IEPL-Basic专线-01\r","type":"ss","server":"uk.network-cdn-gw.cc","port":10014,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"英国-IEPL-Pro专线-02\r","type":"ss","server":"uk01.network-cdn-gw.cc","port":10015,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"澳大利亚-IEPL-Pro专线-01\r","type":"ss","server":"au.network-cdn-gw.cc","port":20003,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"法国-IEPL-Pro专线-01\r","type":"ss","server":"fr.network-cdn-gw.cc","port":20004,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"菲律宾-IEPL-Pro专线-01\r","type":"ss","server":"ph.network-cdn-gw.cc","port":20005,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"芬兰-IEPL-Pro专线-01\r","type":"ss","server":"fl.network-cdn-gw.cc","port":43302,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"马来西亚-IEPL-Pro专线-01\r","type":"ss","server":"mas.network-cdn-gw.cc","port":43305,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"印度-IEPL-Pro专线-01\r","type":"ss","server":"in01.network-cdn-gw.cc","port":43304,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"土耳其-IEPL-Pro专线-01\r","type":"ss","server":"tr03.network-cdn-gw.cc","port":36221,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本-IEPL-Basic专线-01\r","type":"ss","server":"jp01.network-cdn-gw.cc","port":48801,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本-IEPL-Basic专线-02\r","type":"ss","server":"jp02.network-cdn-gw.cc","port":48802,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本-IEPL-Pro专线-01\r","type":"ss","server":"jp03.network-cdn-gw.cc","port":48803,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本-IEPL-Pro专线-02\r","type":"ss","server":"jp04.network-cdn-gw.cc","port":48804,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本-IEPL-Pro专线-03\r","type":"ss","server":"jp05.network-cdn-gw.cc","port":48805,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾-IEPL-Basic专线-01\r","type":"ss","server":"tw01.network-cdn-gw.cc","port":46601,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾-IEPL-Pro专线-01\r","type":"ss","server":"tw02.network-cdn-gw.cc","port":46602,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾-IEPL-Pro专线-02\r","type":"ss","server":"tw03.network-cdn-gw.cc","port":46603,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾-IEPL-Pro专线-03\r","type":"ss","server":"tw04.network-cdn-gw.cc","port":46604,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"台湾-IEPL-Pro专线-04\r","type":"ss","server":"tw05.network-cdn-gw.cc","port":46605,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡-IEPL-Basic专线-01\r","type":"ss","server":"sgp01.network-cdn-gw.cc","port":45501,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡-IEPL-Pro专线-01\r","type":"ss","server":"sgp02.network-cdn-gw.cc","port":45502,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡-IEPL-Pro专线-02\r","type":"ss","server":"sgp03.network-cdn-gw.cc","port":45503,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡-IEPL-Pro专线-03\r","type":"ss","server":"sgp04.network-cdn-gw.cc","port":45504,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡-IEPL-Pro专线-04\r","type":"ss","server":"sgp05.network-cdn-gw.cc","port":45505,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Basic-01\r","type":"ss","server":"us06.network-cdn-gw.cc","port":43111,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Basic-02\r","type":"ss","server":"us07.network-cdn-gw.cc","port":43211,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Basic-03\r","type":"ss","server":"us08.network-cdn-gw.cc","port":43212,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Basic-04\r","type":"ss","server":"us09.network-cdn-gw.cc","port":43213,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Basic-05\r","type":"ss","server":"us10.network-cdn-gw.cc","port":43215,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Pro专线-01\r","type":"ss","server":"us01.network-cdn-gw.cc","port":44401,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Pro专线-02\r","type":"ss","server":"us02.network-cdn-gw.cc","port":44402,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Pro专线-03\r","type":"ss","server":"us03.network-cdn-gw.cc","port":44403,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Pro专线-04\r","type":"ss","server":"us04.network-cdn-gw.cc","port":44404,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国-IEPL-Pro专线-05\r","type":"ss","server":"us05.network-cdn-gw.cc","port":44405,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-01\r","type":"ss","server":"hkp01.network-cdn-gw.cc","port":49901,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-02\r","type":"ss","server":"hkp02.network-cdn-gw.cc","port":49902,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-03\r","type":"ss","server":"hkp03.network-cdn-gw.cc","port":49903,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-04\r","type":"ss","server":"hkp04.network-cdn-gw.cc","port":49904,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-05\r","type":"ss","server":"hkp05.network-cdn-gw.cc","port":49905,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-06\r","type":"ss","server":"hkp06.network-cdn-gw.cc","port":48806,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-07\r","type":"ss","server":"hkp07.network-cdn-gw.cc","port":48807,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-08\r","type":"ss","server":"hkp08.network-cdn-gw.cc","port":48808,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-09\r","type":"ss","server":"hkp09.network-cdn-gw.cc","port":48809,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港-IEPL-Pro专线-10\r","type":"ss","server":"hkp10.network-cdn-gw.cc","port":48810,"password":"1cb40b83-fbd4-4648-a6e6-7166060b4905","cipher":"chacha20-ietf-poly1305"}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - "剩余流量：-1.05 GB\r"
+      - "套餐到期：长期有效\r"
+      - "香港-IEPL-Basic专线-01\r"
+      - "香港-IEPL-Basic专线-02\r"
+      - "香港-IEPL-Basic专线-03\r"
+      - "香港-IEPL-Basic专线-04\r"
+      - "香港-IEPL-Basic专线-05\r"
+      - "香港-IEPL-Basic专线-06\r"
+      - "香港-IEPL-Basic专线-07\r"
+      - "香港-IEPL-Basic专线-08\r"
+      - "香港-IEPL-Basic专线-09\r"
+      - "香港-IEPL-Basic专线-10\r"
+      - "韩国-IEPL-Basic专线-01\r"
+      - "韩国-EIPL-Pro专线-01\r"
+      - "泰国-IEPL-Pro专线-01\r"
+      - "越南-IEPL-Basic专线-01\r"
+      - "越南-IEPL-Pro专线-02\r"
+      - "英国-IEPL-Basic专线-01\r"
+      - "英国-IEPL-Pro专线-02\r"
+      - "澳大利亚-IEPL-Pro专线-01\r"
+      - "法国-IEPL-Pro专线-01\r"
+      - "菲律宾-IEPL-Pro专线-01\r"
+      - "芬兰-IEPL-Pro专线-01\r"
+      - "马来西亚-IEPL-Pro专线-01\r"
+      - "印度-IEPL-Pro专线-01\r"
+      - "土耳其-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Basic专线-01\r"
+      - "日本-IEPL-Basic专线-02\r"
+      - "日本-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Pro专线-02\r"
+      - "日本-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Basic专线-01\r"
+      - "台湾-IEPL-Pro专线-01\r"
+      - "台湾-IEPL-Pro专线-02\r"
+      - "台湾-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Pro专线-04\r"
+      - "新加坡-IEPL-Basic专线-01\r"
+      - "新加坡-IEPL-Pro专线-01\r"
+      - "新加坡-IEPL-Pro专线-02\r"
+      - "新加坡-IEPL-Pro专线-03\r"
+      - "新加坡-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Basic-01\r"
+      - "美国-IEPL-Basic-02\r"
+      - "美国-IEPL-Basic-03\r"
+      - "美国-IEPL-Basic-04\r"
+      - "美国-IEPL-Basic-05\r"
+      - "美国-IEPL-Pro专线-01\r"
+      - "美国-IEPL-Pro专线-02\r"
+      - "美国-IEPL-Pro专线-03\r"
+      - "美国-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-01\r"
+      - "香港-IEPL-Pro专线-02\r"
+      - "香港-IEPL-Pro专线-03\r"
+      - "香港-IEPL-Pro专线-04\r"
+      - "香港-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-06\r"
+      - "香港-IEPL-Pro专线-07\r"
+      - "香港-IEPL-Pro专线-08\r"
+      - "香港-IEPL-Pro专线-09\r"
+      - "香港-IEPL-Pro专线-10\r"
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+      - "剩余流量：-1.05 GB\r"
+      - "套餐到期：长期有效\r"
+      - "香港-IEPL-Basic专线-01\r"
+      - "香港-IEPL-Basic专线-02\r"
+      - "香港-IEPL-Basic专线-03\r"
+      - "香港-IEPL-Basic专线-04\r"
+      - "香港-IEPL-Basic专线-05\r"
+      - "香港-IEPL-Basic专线-06\r"
+      - "香港-IEPL-Basic专线-07\r"
+      - "香港-IEPL-Basic专线-08\r"
+      - "香港-IEPL-Basic专线-09\r"
+      - "香港-IEPL-Basic专线-10\r"
+      - "韩国-IEPL-Basic专线-01\r"
+      - "韩国-EIPL-Pro专线-01\r"
+      - "泰国-IEPL-Pro专线-01\r"
+      - "越南-IEPL-Basic专线-01\r"
+      - "越南-IEPL-Pro专线-02\r"
+      - "英国-IEPL-Basic专线-01\r"
+      - "英国-IEPL-Pro专线-02\r"
+      - "澳大利亚-IEPL-Pro专线-01\r"
+      - "法国-IEPL-Pro专线-01\r"
+      - "菲律宾-IEPL-Pro专线-01\r"
+      - "芬兰-IEPL-Pro专线-01\r"
+      - "马来西亚-IEPL-Pro专线-01\r"
+      - "印度-IEPL-Pro专线-01\r"
+      - "土耳其-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Basic专线-01\r"
+      - "日本-IEPL-Basic专线-02\r"
+      - "日本-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Pro专线-02\r"
+      - "日本-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Basic专线-01\r"
+      - "台湾-IEPL-Pro专线-01\r"
+      - "台湾-IEPL-Pro专线-02\r"
+      - "台湾-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Pro专线-04\r"
+      - "新加坡-IEPL-Basic专线-01\r"
+      - "新加坡-IEPL-Pro专线-01\r"
+      - "新加坡-IEPL-Pro专线-02\r"
+      - "新加坡-IEPL-Pro专线-03\r"
+      - "新加坡-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Basic-01\r"
+      - "美国-IEPL-Basic-02\r"
+      - "美国-IEPL-Basic-03\r"
+      - "美国-IEPL-Basic-04\r"
+      - "美国-IEPL-Basic-05\r"
+      - "美国-IEPL-Pro专线-01\r"
+      - "美国-IEPL-Pro专线-02\r"
+      - "美国-IEPL-Pro专线-03\r"
+      - "美国-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-01\r"
+      - "香港-IEPL-Pro专线-02\r"
+      - "香港-IEPL-Pro专线-03\r"
+      - "香港-IEPL-Pro专线-04\r"
+      - "香港-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-06\r"
+      - "香港-IEPL-Pro专线-07\r"
+      - "香港-IEPL-Pro专线-08\r"
+      - "香港-IEPL-Pro专线-09\r"
+      - "香港-IEPL-Pro专线-10\r"
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - "剩余流量：-1.05 GB\r"
+      - "套餐到期：长期有效\r"
+      - "香港-IEPL-Basic专线-01\r"
+      - "香港-IEPL-Basic专线-02\r"
+      - "香港-IEPL-Basic专线-03\r"
+      - "香港-IEPL-Basic专线-04\r"
+      - "香港-IEPL-Basic专线-05\r"
+      - "香港-IEPL-Basic专线-06\r"
+      - "香港-IEPL-Basic专线-07\r"
+      - "香港-IEPL-Basic专线-08\r"
+      - "香港-IEPL-Basic专线-09\r"
+      - "香港-IEPL-Basic专线-10\r"
+      - "韩国-IEPL-Basic专线-01\r"
+      - "韩国-EIPL-Pro专线-01\r"
+      - "泰国-IEPL-Pro专线-01\r"
+      - "越南-IEPL-Basic专线-01\r"
+      - "越南-IEPL-Pro专线-02\r"
+      - "英国-IEPL-Basic专线-01\r"
+      - "英国-IEPL-Pro专线-02\r"
+      - "澳大利亚-IEPL-Pro专线-01\r"
+      - "法国-IEPL-Pro专线-01\r"
+      - "菲律宾-IEPL-Pro专线-01\r"
+      - "芬兰-IEPL-Pro专线-01\r"
+      - "马来西亚-IEPL-Pro专线-01\r"
+      - "印度-IEPL-Pro专线-01\r"
+      - "土耳其-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Basic专线-01\r"
+      - "日本-IEPL-Basic专线-02\r"
+      - "日本-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Pro专线-02\r"
+      - "日本-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Basic专线-01\r"
+      - "台湾-IEPL-Pro专线-01\r"
+      - "台湾-IEPL-Pro专线-02\r"
+      - "台湾-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Pro专线-04\r"
+      - "新加坡-IEPL-Basic专线-01\r"
+      - "新加坡-IEPL-Pro专线-01\r"
+      - "新加坡-IEPL-Pro专线-02\r"
+      - "新加坡-IEPL-Pro专线-03\r"
+      - "新加坡-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Basic-01\r"
+      - "美国-IEPL-Basic-02\r"
+      - "美国-IEPL-Basic-03\r"
+      - "美国-IEPL-Basic-04\r"
+      - "美国-IEPL-Basic-05\r"
+      - "美国-IEPL-Pro专线-01\r"
+      - "美国-IEPL-Pro专线-02\r"
+      - "美国-IEPL-Pro专线-03\r"
+      - "美国-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-01\r"
+      - "香港-IEPL-Pro专线-02\r"
+      - "香港-IEPL-Pro专线-03\r"
+      - "香港-IEPL-Pro专线-04\r"
+      - "香港-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-06\r"
+      - "香港-IEPL-Pro专线-07\r"
+      - "香港-IEPL-Pro专线-08\r"
+      - "香港-IEPL-Pro专线-09\r"
+      - "香港-IEPL-Pro专线-10\r"
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - "剩余流量：-1.05 GB\r"
+      - "套餐到期：长期有效\r"
+      - "香港-IEPL-Basic专线-01\r"
+      - "香港-IEPL-Basic专线-02\r"
+      - "香港-IEPL-Basic专线-03\r"
+      - "香港-IEPL-Basic专线-04\r"
+      - "香港-IEPL-Basic专线-05\r"
+      - "香港-IEPL-Basic专线-06\r"
+      - "香港-IEPL-Basic专线-07\r"
+      - "香港-IEPL-Basic专线-08\r"
+      - "香港-IEPL-Basic专线-09\r"
+      - "香港-IEPL-Basic专线-10\r"
+      - "韩国-IEPL-Basic专线-01\r"
+      - "韩国-EIPL-Pro专线-01\r"
+      - "泰国-IEPL-Pro专线-01\r"
+      - "越南-IEPL-Basic专线-01\r"
+      - "越南-IEPL-Pro专线-02\r"
+      - "英国-IEPL-Basic专线-01\r"
+      - "英国-IEPL-Pro专线-02\r"
+      - "澳大利亚-IEPL-Pro专线-01\r"
+      - "法国-IEPL-Pro专线-01\r"
+      - "菲律宾-IEPL-Pro专线-01\r"
+      - "芬兰-IEPL-Pro专线-01\r"
+      - "马来西亚-IEPL-Pro专线-01\r"
+      - "印度-IEPL-Pro专线-01\r"
+      - "土耳其-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Basic专线-01\r"
+      - "日本-IEPL-Basic专线-02\r"
+      - "日本-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Pro专线-02\r"
+      - "日本-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Basic专线-01\r"
+      - "台湾-IEPL-Pro专线-01\r"
+      - "台湾-IEPL-Pro专线-02\r"
+      - "台湾-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Pro专线-04\r"
+      - "新加坡-IEPL-Basic专线-01\r"
+      - "新加坡-IEPL-Pro专线-01\r"
+      - "新加坡-IEPL-Pro专线-02\r"
+      - "新加坡-IEPL-Pro专线-03\r"
+      - "新加坡-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Basic-01\r"
+      - "美国-IEPL-Basic-02\r"
+      - "美国-IEPL-Basic-03\r"
+      - "美国-IEPL-Basic-04\r"
+      - "美国-IEPL-Basic-05\r"
+      - "美国-IEPL-Pro专线-01\r"
+      - "美国-IEPL-Pro专线-02\r"
+      - "美国-IEPL-Pro专线-03\r"
+      - "美国-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-01\r"
+      - "香港-IEPL-Pro专线-02\r"
+      - "香港-IEPL-Pro专线-03\r"
+      - "香港-IEPL-Pro专线-04\r"
+      - "香港-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-06\r"
+      - "香港-IEPL-Pro专线-07\r"
+      - "香港-IEPL-Pro专线-08\r"
+      - "香港-IEPL-Pro专线-09\r"
+      - "香港-IEPL-Pro专线-10\r"
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - "剩余流量：-1.05 GB\r"
+      - "套餐到期：长期有效\r"
+      - "香港-IEPL-Basic专线-01\r"
+      - "香港-IEPL-Basic专线-02\r"
+      - "香港-IEPL-Basic专线-03\r"
+      - "香港-IEPL-Basic专线-04\r"
+      - "香港-IEPL-Basic专线-05\r"
+      - "香港-IEPL-Basic专线-06\r"
+      - "香港-IEPL-Basic专线-07\r"
+      - "香港-IEPL-Basic专线-08\r"
+      - "香港-IEPL-Basic专线-09\r"
+      - "香港-IEPL-Basic专线-10\r"
+      - "韩国-IEPL-Basic专线-01\r"
+      - "韩国-EIPL-Pro专线-01\r"
+      - "泰国-IEPL-Pro专线-01\r"
+      - "越南-IEPL-Basic专线-01\r"
+      - "越南-IEPL-Pro专线-02\r"
+      - "英国-IEPL-Basic专线-01\r"
+      - "英国-IEPL-Pro专线-02\r"
+      - "澳大利亚-IEPL-Pro专线-01\r"
+      - "法国-IEPL-Pro专线-01\r"
+      - "菲律宾-IEPL-Pro专线-01\r"
+      - "芬兰-IEPL-Pro专线-01\r"
+      - "马来西亚-IEPL-Pro专线-01\r"
+      - "印度-IEPL-Pro专线-01\r"
+      - "土耳其-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Basic专线-01\r"
+      - "日本-IEPL-Basic专线-02\r"
+      - "日本-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Pro专线-02\r"
+      - "日本-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Basic专线-01\r"
+      - "台湾-IEPL-Pro专线-01\r"
+      - "台湾-IEPL-Pro专线-02\r"
+      - "台湾-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Pro专线-04\r"
+      - "新加坡-IEPL-Basic专线-01\r"
+      - "新加坡-IEPL-Pro专线-01\r"
+      - "新加坡-IEPL-Pro专线-02\r"
+      - "新加坡-IEPL-Pro专线-03\r"
+      - "新加坡-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Basic-01\r"
+      - "美国-IEPL-Basic-02\r"
+      - "美国-IEPL-Basic-03\r"
+      - "美国-IEPL-Basic-04\r"
+      - "美国-IEPL-Basic-05\r"
+      - "美国-IEPL-Pro专线-01\r"
+      - "美国-IEPL-Pro专线-02\r"
+      - "美国-IEPL-Pro专线-03\r"
+      - "美国-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-01\r"
+      - "香港-IEPL-Pro专线-02\r"
+      - "香港-IEPL-Pro专线-03\r"
+      - "香港-IEPL-Pro专线-04\r"
+      - "香港-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-06\r"
+      - "香港-IEPL-Pro专线-07\r"
+      - "香港-IEPL-Pro专线-08\r"
+      - "香港-IEPL-Pro专线-09\r"
+      - "香港-IEPL-Pro专线-10\r"
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - "剩余流量：-1.05 GB\r"
+      - "套餐到期：长期有效\r"
+      - "香港-IEPL-Basic专线-01\r"
+      - "香港-IEPL-Basic专线-02\r"
+      - "香港-IEPL-Basic专线-03\r"
+      - "香港-IEPL-Basic专线-04\r"
+      - "香港-IEPL-Basic专线-05\r"
+      - "香港-IEPL-Basic专线-06\r"
+      - "香港-IEPL-Basic专线-07\r"
+      - "香港-IEPL-Basic专线-08\r"
+      - "香港-IEPL-Basic专线-09\r"
+      - "香港-IEPL-Basic专线-10\r"
+      - "韩国-IEPL-Basic专线-01\r"
+      - "韩国-EIPL-Pro专线-01\r"
+      - "泰国-IEPL-Pro专线-01\r"
+      - "越南-IEPL-Basic专线-01\r"
+      - "越南-IEPL-Pro专线-02\r"
+      - "英国-IEPL-Basic专线-01\r"
+      - "英国-IEPL-Pro专线-02\r"
+      - "澳大利亚-IEPL-Pro专线-01\r"
+      - "法国-IEPL-Pro专线-01\r"
+      - "菲律宾-IEPL-Pro专线-01\r"
+      - "芬兰-IEPL-Pro专线-01\r"
+      - "马来西亚-IEPL-Pro专线-01\r"
+      - "印度-IEPL-Pro专线-01\r"
+      - "土耳其-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Basic专线-01\r"
+      - "日本-IEPL-Basic专线-02\r"
+      - "日本-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Pro专线-02\r"
+      - "日本-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Basic专线-01\r"
+      - "台湾-IEPL-Pro专线-01\r"
+      - "台湾-IEPL-Pro专线-02\r"
+      - "台湾-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Pro专线-04\r"
+      - "新加坡-IEPL-Basic专线-01\r"
+      - "新加坡-IEPL-Pro专线-01\r"
+      - "新加坡-IEPL-Pro专线-02\r"
+      - "新加坡-IEPL-Pro专线-03\r"
+      - "新加坡-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Basic-01\r"
+      - "美国-IEPL-Basic-02\r"
+      - "美国-IEPL-Basic-03\r"
+      - "美国-IEPL-Basic-04\r"
+      - "美国-IEPL-Basic-05\r"
+      - "美国-IEPL-Pro专线-01\r"
+      - "美国-IEPL-Pro专线-02\r"
+      - "美国-IEPL-Pro专线-03\r"
+      - "美国-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-01\r"
+      - "香港-IEPL-Pro专线-02\r"
+      - "香港-IEPL-Pro专线-03\r"
+      - "香港-IEPL-Pro专线-04\r"
+      - "香港-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-06\r"
+      - "香港-IEPL-Pro专线-07\r"
+      - "香港-IEPL-Pro专线-08\r"
+      - "香港-IEPL-Pro专线-09\r"
+      - "香港-IEPL-Pro专线-10\r"
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - "剩余流量：-1.05 GB\r"
+      - "套餐到期：长期有效\r"
+      - "香港-IEPL-Basic专线-01\r"
+      - "香港-IEPL-Basic专线-02\r"
+      - "香港-IEPL-Basic专线-03\r"
+      - "香港-IEPL-Basic专线-04\r"
+      - "香港-IEPL-Basic专线-05\r"
+      - "香港-IEPL-Basic专线-06\r"
+      - "香港-IEPL-Basic专线-07\r"
+      - "香港-IEPL-Basic专线-08\r"
+      - "香港-IEPL-Basic专线-09\r"
+      - "香港-IEPL-Basic专线-10\r"
+      - "韩国-IEPL-Basic专线-01\r"
+      - "韩国-EIPL-Pro专线-01\r"
+      - "泰国-IEPL-Pro专线-01\r"
+      - "越南-IEPL-Basic专线-01\r"
+      - "越南-IEPL-Pro专线-02\r"
+      - "英国-IEPL-Basic专线-01\r"
+      - "英国-IEPL-Pro专线-02\r"
+      - "澳大利亚-IEPL-Pro专线-01\r"
+      - "法国-IEPL-Pro专线-01\r"
+      - "菲律宾-IEPL-Pro专线-01\r"
+      - "芬兰-IEPL-Pro专线-01\r"
+      - "马来西亚-IEPL-Pro专线-01\r"
+      - "印度-IEPL-Pro专线-01\r"
+      - "土耳其-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Basic专线-01\r"
+      - "日本-IEPL-Basic专线-02\r"
+      - "日本-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Pro专线-02\r"
+      - "日本-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Basic专线-01\r"
+      - "台湾-IEPL-Pro专线-01\r"
+      - "台湾-IEPL-Pro专线-02\r"
+      - "台湾-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Pro专线-04\r"
+      - "新加坡-IEPL-Basic专线-01\r"
+      - "新加坡-IEPL-Pro专线-01\r"
+      - "新加坡-IEPL-Pro专线-02\r"
+      - "新加坡-IEPL-Pro专线-03\r"
+      - "新加坡-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Basic-01\r"
+      - "美国-IEPL-Basic-02\r"
+      - "美国-IEPL-Basic-03\r"
+      - "美国-IEPL-Basic-04\r"
+      - "美国-IEPL-Basic-05\r"
+      - "美国-IEPL-Pro专线-01\r"
+      - "美国-IEPL-Pro专线-02\r"
+      - "美国-IEPL-Pro专线-03\r"
+      - "美国-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-01\r"
+      - "香港-IEPL-Pro专线-02\r"
+      - "香港-IEPL-Pro专线-03\r"
+      - "香港-IEPL-Pro专线-04\r"
+      - "香港-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-06\r"
+      - "香港-IEPL-Pro专线-07\r"
+      - "香港-IEPL-Pro专线-08\r"
+      - "香港-IEPL-Pro专线-09\r"
+      - "香港-IEPL-Pro专线-10\r"
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - "剩余流量：-1.05 GB\r"
+      - "套餐到期：长期有效\r"
+      - "香港-IEPL-Basic专线-01\r"
+      - "香港-IEPL-Basic专线-02\r"
+      - "香港-IEPL-Basic专线-03\r"
+      - "香港-IEPL-Basic专线-04\r"
+      - "香港-IEPL-Basic专线-05\r"
+      - "香港-IEPL-Basic专线-06\r"
+      - "香港-IEPL-Basic专线-07\r"
+      - "香港-IEPL-Basic专线-08\r"
+      - "香港-IEPL-Basic专线-09\r"
+      - "香港-IEPL-Basic专线-10\r"
+      - "韩国-IEPL-Basic专线-01\r"
+      - "韩国-EIPL-Pro专线-01\r"
+      - "泰国-IEPL-Pro专线-01\r"
+      - "越南-IEPL-Basic专线-01\r"
+      - "越南-IEPL-Pro专线-02\r"
+      - "英国-IEPL-Basic专线-01\r"
+      - "英国-IEPL-Pro专线-02\r"
+      - "澳大利亚-IEPL-Pro专线-01\r"
+      - "法国-IEPL-Pro专线-01\r"
+      - "菲律宾-IEPL-Pro专线-01\r"
+      - "芬兰-IEPL-Pro专线-01\r"
+      - "马来西亚-IEPL-Pro专线-01\r"
+      - "印度-IEPL-Pro专线-01\r"
+      - "土耳其-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Basic专线-01\r"
+      - "日本-IEPL-Basic专线-02\r"
+      - "日本-IEPL-Pro专线-01\r"
+      - "日本-IEPL-Pro专线-02\r"
+      - "日本-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Basic专线-01\r"
+      - "台湾-IEPL-Pro专线-01\r"
+      - "台湾-IEPL-Pro专线-02\r"
+      - "台湾-IEPL-Pro专线-03\r"
+      - "台湾-IEPL-Pro专线-04\r"
+      - "新加坡-IEPL-Basic专线-01\r"
+      - "新加坡-IEPL-Pro专线-01\r"
+      - "新加坡-IEPL-Pro专线-02\r"
+      - "新加坡-IEPL-Pro专线-03\r"
+      - "新加坡-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Basic-01\r"
+      - "美国-IEPL-Basic-02\r"
+      - "美国-IEPL-Basic-03\r"
+      - "美国-IEPL-Basic-04\r"
+      - "美国-IEPL-Basic-05\r"
+      - "美国-IEPL-Pro专线-01\r"
+      - "美国-IEPL-Pro专线-02\r"
+      - "美国-IEPL-Pro专线-03\r"
+      - "美国-IEPL-Pro专线-04\r"
+      - "美国-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-01\r"
+      - "香港-IEPL-Pro专线-02\r"
+      - "香港-IEPL-Pro专线-03\r"
+      - "香港-IEPL-Pro专线-04\r"
+      - "香港-IEPL-Pro专线-05\r"
+      - "香港-IEPL-Pro专线-06\r"
+      - "香港-IEPL-Pro专线-07\r"
+      - "香港-IEPL-Pro专线-08\r"
+      - "香港-IEPL-Pro专线-09\r"
+      - "香港-IEPL-Pro专线-10\r"
+
+rule-providers:
+  applications:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
+    interval: 86400
+    path: ./ruleset/applications.yaml
+  private:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+    interval: 86400
+    path: ./ruleset/private.yaml
+  icloud:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
+    interval: 86400
+    path: ./ruleset/icloud.yaml
+  apple:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
+    interval: 86400
+    path: ./ruleset/apple.yaml
+  google:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt
+    interval: 86400
+    path: ./ruleset/google.yaml
+  direct:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
+    interval: 86400
+    path: ./ruleset/direct.yaml
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+    interval: 86400
+    path: ./ruleset/lancidr.yaml
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
+    interval: 86400
+    path: ./ruleset/cncidr.yaml
+  reject:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    interval: 86400
+    path: ./ruleset/reject.yaml
+  proxy:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+    interval: 86400
+    path: ./ruleset/proxy.yaml
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
+    interval: 86400
+    path: ./ruleset/telegramcidr.yaml
+rules:
+  - RULE-SET,applications,🎯 全球直连
+  - RULE-SET,private,🎯 全球直连
+  - RULE-SET,icloud,🎯 全球直连
+  - RULE-SET,apple,🎯 全球直连
+  - RULE-SET,google,🎯 全球直连
+  - RULE-SET,direct,🎯 全球直连
+  - RULE-SET,lancidr,🎯 全球直连
+  - RULE-SET,cncidr,🎯 全球直连
+  - RULE-SET,reject,🛑 全球拦截
+  - RULE-SET,proxy,🗿 节点选择
+  - RULE-SET,telegramcidr,🗿 节点选择
+  - DOMAIN,clash.razord.top,🎯 全球直连
+  - DOMAIN,yacd.haishan.me,🎯 全球直连
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
