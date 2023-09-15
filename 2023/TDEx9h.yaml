@@ -1,0 +1,807 @@
+#  Hi,We are free ,please avoid fraud.
+#  Generated at 2022-12-12 00:00 by WekiYun
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5.5
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
+proxies:
+  - {"name":"🇨🇳 中国 TG@Crap996 1","type":"ss","server":"free.node.kk-proxy.pro","port":55928,"password":"cf4d88ea-ae0d-4272-8f75-8eabdf018981","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 2","type":"ss","server":"free.node.kk-proxy.pro","port":24961,"password":"cf4d88ea-ae0d-4272-8f75-8eabdf018981","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 3","type":"ss","server":"free.node.kk-proxy.pro","port":54455,"password":"cf4d88ea-ae0d-4272-8f75-8eabdf018981","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国 TG@Crap996 4","type":"ss","server":"34.209.88.56","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺 俄罗斯联邦 TG@Crap996 5","type":"ss","server":"89.19.216.18","port":8388,"password":"NC7jORVNrruV/+3+PwOJrnnOeG7n75X1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国 TG@Crap996 6","type":"ss","server":"38.180.12.22","port":8388,"password":"WImrZFWmnfeuNQen/PZHXZv6ncCThNlB","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国 TG@Crap996 7","type":"vmess","server":"162.159.58.164","port":80,"cipher":"auto","uuid":"cd0c570f-757c-48d2-a1b6-c0940431cc47","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"nl10gbps.6577617.xyz"}}}
+  - {"name":"🇨🇳 中国 TG@Crap996 8","type":"ss","server":"fs.xianyuwangluo.cyou","port":27201,"password":"2a23c437-de2c-47e3-b779-fb1d2289578f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国 TG@Crap996 9","type":"vmess","server":"yhnsb.shabijichang.com","port":80,"cipher":"auto","uuid":"f1865e50-2510-46d1-bcb2-e00b4b656305","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"yhnsb.shabijichang.com"}}}
+  - {"name":"🇺🇸 美国 TG@Crap996 10","type":"vmess","server":"sbl3.shabijichang.com","port":80,"cipher":"auto","uuid":"f1865e50-2510-46d1-bcb2-e00b4b656305","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sbl3.shabijichang.com"}}}
+  - {"name":"🇺🇸 美国 TG@Crap996 11","type":"vmess","server":"ms.shabijichang.com","port":80,"cipher":"auto","uuid":"52cce261-ff53-439a-b97d-f36201842cdb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ms.shabijichang.com"}}}
+  - {"name":"🇸🇬 新加坡 TG@Crap996 12","type":"trojan","server":"pqawssg1.aiopen.cfd","port":443,"udp":true,"password":"16230ed6-5252-47bc-8357-fa1dda996141","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国 TG@Crap996 13","type":"vmess","server":"sg1.wyhkaa0.cf","port":80,"cipher":"auto","uuid":"f4575c03-8145-4612-a1b2-7a48117f6fc2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"sg1.wyhkaa0.cf"}}}
+  - {"name":"🇺🇸 美国 TG@Crap996 14","type":"vmess","server":"hdlb2.shabijichang.com","port":80,"cipher":"auto","uuid":"53701585-591f-48a3-9515-8831ed0524ac","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hdlb2.shabijichang.com"}}}
+  - {"name":"🇨🇳 中国 TG@Crap996 15","type":"trojan","server":"14.18.106.137","port":41929,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国 TG@Crap996 16","type":"vmess","server":"sg2.wyhkaa0.cf","port":80,"cipher":"auto","uuid":"fc426675-5daa-46c0-d998-61f9f5323e3f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/TG:@hkaa0","headers":{"host":"sg2.wyhkaa0.cf"}}}
+  - {"name":"🇨🇳 中国 TG@Crap996 17","type":"vmess","server":"zhuanx01.zncloudnet01.xyz","port":1581,"cipher":"auto","uuid":"ff457027-b44b-3775-8075-da0eeade6f15","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6","headers":{"host":"live.bilibili.com"}}}
+  - {"name":"🇨🇳 中国 TG@Crap996 18","type":"trojan","server":"14.18.108.108","port":41929,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 新加坡 TG@Crap996 19","type":"ss","server":"13.229.182.222","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬 新加坡 TG@Crap996 20","type":"ss","server":"54.254.255.246","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬 新加坡 TG@Crap996 21","type":"ss","server":"52.77.225.90","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳 中国 TG@Crap996 22","type":"ss","server":"223.113.130.30","port":15021,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 23","type":"ss","server":"223.113.130.30","port":15020,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 24","type":"ss","server":"223.113.130.30","port":15017,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 25","type":"ss","server":"223.113.130.30","port":15015,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 26","type":"ss","server":"223.113.130.30","port":15018,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 27","type":"ss","server":"223.113.130.30","port":15004,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 28","type":"ss","server":"223.113.130.30","port":15006,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 29","type":"ss","server":"223.113.130.30","port":15023,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 30","type":"ss","server":"223.113.130.30","port":15003,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"aes-128-gcm"}
+  - {"name":"🇨🇳 中国 TG@Crap996 31","type":"ss","server":"223.113.130.30","port":15007,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡 TG@Crap996 32","type":"ss","server":"18.141.174.49","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇪 肯尼亚 TG@Crap996 33","type":"ss","server":"62.12.116.66","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳 中国 TG@Crap996 34","type":"trojan","server":"223.113.130.30","port":18021,"udp":true,"password":"e698fbda-78cc-4daf-926c-3f2742974683","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 中国 TG@Crap996 35","type":"ss","server":"120.195.184.63","port":27206,"password":"aa8dba04-bf38-4255-a3f4-1aa3f1c10cb6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 36","type":"trojan","server":"t-06.outrdp.xyz","port":14008,"udp":true,"password":"3194c3ac-512b-31aa-89ac-366308ad98ca","sni":"t-06.outrdp.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 中国 TG@Crap996 37","type":"trojan","server":"t-06.outrdp.xyz","port":14009,"udp":true,"password":"3194c3ac-512b-31aa-89ac-366308ad98ca","sni":"t-06.outrdp.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 中国 TG@Crap996 38","type":"trojan","server":"t-06.outrdp.xyz","port":14001,"udp":true,"password":"3194c3ac-512b-31aa-89ac-366308ad98ca","sni":"t-06.outrdp.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 中国 TG@Crap996 39","type":"ss","server":"hk3.fxzbjs.xyz","port":15015,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 40","type":"trojan","server":"110.72.99.118","port":3306,"udp":true,"password":"3febb05ea76a940f","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 中国 TG@Crap996 41","type":"ss","server":"sg1.fxzbjs.xyz","port":15017,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 42","type":"ss","server":"101.91.116.224","port":55928,"password":"cf4d88ea-ae0d-4272-8f75-8eabdf018981","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 43","type":"trojan","server":"t-06.outrdp.xyz","port":13063,"udp":true,"password":"3194c3ac-512b-31aa-89ac-366308ad98ca","sni":"t-06.outrdp.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 中国 TG@Crap996 44","type":"trojan","server":"t-06.outrdp.xyz","port":13064,"udp":true,"password":"3194c3ac-512b-31aa-89ac-366308ad98ca","sni":"t-06.outrdp.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 中国 TG@Crap996 45","type":"ss","server":"101.91.116.224","port":54455,"password":"cf4d88ea-ae0d-4272-8f75-8eabdf018981","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 46","type":"ss","server":"t1.fxzbjs.xyz","port":15004,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 47","type":"ss","server":"sg4.fxzbjs.xyz","port":15020,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 48","type":"ss","server":"sg4.fxzbjs.xyz","port":15021,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 49","type":"ss","server":"jh.xianyuwangluo.cyou","port":27209,"password":"0d940b60-7669-42a7-a2f6-95cb088a2300","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 50","type":"ss","server":"t3.fxzbjs.xyz","port":15006,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 51","type":"ss","server":"sg2.fxzbjs.xyz","port":15018,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 德国 TG@Crap996 52","type":"trojan","server":"5.104.108.109","port":443,"udp":true,"password":"16230ed6-5252-47bc-8357-fa1dda996141","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 中国 TG@Crap996 53","type":"ss","server":"jp1.fxzbjs.xyz","port":15002,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 54","type":"ss","server":"us4.fxzbjs.xyz","port":15012,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 55","type":"ss","server":"jp1.fxzbjs.xyz","port":15022,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 56","type":"ss","server":"jp2.fxzbjs.xyz","port":15008,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国 TG@Crap996 57","type":"vmess","server":"hdlb2.shabijichang.com","port":80,"cipher":"auto","uuid":"f1865e50-2510-46d1-bcb2-e00b4b656305","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hdlb2.shabijichang.com"}}}
+  - {"name":"🇺🇸 美国 TG@Crap996 58","type":"vmess","server":"hdlb.shabijichang.com","port":80,"cipher":"auto","uuid":"f1865e50-2510-46d1-bcb2-e00b4b656305","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hdlb.shabijichang.com"}}}
+  - {"name":"🇨🇳 中国 TG@Crap996 59","type":"ss","server":"us1.fxzbjs.xyz","port":15001,"password":"e698fbda-78cc-4daf-926c-3f2742974683","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 60","type":"ss","server":"jh.xianyuwangluo.cyou","port":27201,"password":"2a23c437-de2c-47e3-b779-fb1d2289578f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国 TG@Crap996 61","type":"vmess","server":"sbl3.shabijichang.com","port":80,"cipher":"auto","uuid":"52cce261-ff53-439a-b97d-f36201842cdb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sbl3.shabijichang.com"}}}
+  - {"name":"🇺🇸 美国 TG@Crap996 62","type":"vmess","server":"sbl3.shabijichang.com","port":80,"cipher":"auto","uuid":"53701585-591f-48a3-9515-8831ed0524ac","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sbl3.shabijichang.com"}}}
+  - {"name":"🇨🇳 中国 TG@Crap996 63","type":"ss","server":"112.26.46.24","port":27201,"password":"2a23c437-de2c-47e3-b779-fb1d2289578f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳 中国 TG@Crap996 64","type":"trojan","server":"110.72.99.118","port":3306,"udp":true,"password":"8a5360b3b31229d8","skip-cert-verify":true,"network":"tcp"}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇨🇳 中国 TG@Crap996 1
+      - 🇨🇳 中国 TG@Crap996 2
+      - 🇨🇳 中国 TG@Crap996 3
+      - 🇺🇸 美国 TG@Crap996 4
+      - 🇷🇺 俄罗斯联邦 TG@Crap996 5
+      - 🇺🇸 美国 TG@Crap996 6
+      - 🇺🇸 美国 TG@Crap996 7
+      - 🇨🇳 中国 TG@Crap996 8
+      - 🇺🇸 美国 TG@Crap996 9
+      - 🇺🇸 美国 TG@Crap996 10
+      - 🇺🇸 美国 TG@Crap996 11
+      - 🇸🇬 新加坡 TG@Crap996 12
+      - 🇺🇸 美国 TG@Crap996 13
+      - 🇺🇸 美国 TG@Crap996 14
+      - 🇨🇳 中国 TG@Crap996 15
+      - 🇺🇸 美国 TG@Crap996 16
+      - 🇨🇳 中国 TG@Crap996 17
+      - 🇨🇳 中国 TG@Crap996 18
+      - 🇸🇬 新加坡 TG@Crap996 19
+      - 🇸🇬 新加坡 TG@Crap996 20
+      - 🇸🇬 新加坡 TG@Crap996 21
+      - 🇨🇳 中国 TG@Crap996 22
+      - 🇨🇳 中国 TG@Crap996 23
+      - 🇨🇳 中国 TG@Crap996 24
+      - 🇨🇳 中国 TG@Crap996 25
+      - 🇨🇳 中国 TG@Crap996 26
+      - 🇨🇳 中国 TG@Crap996 27
+      - 🇨🇳 中国 TG@Crap996 28
+      - 🇨🇳 中国 TG@Crap996 29
+      - 🇨🇳 中国 TG@Crap996 30
+      - 🇨🇳 中国 TG@Crap996 31
+      - 🇸🇬 新加坡 TG@Crap996 32
+      - 🇰🇪 肯尼亚 TG@Crap996 33
+      - 🇨🇳 中国 TG@Crap996 34
+      - 🇨🇳 中国 TG@Crap996 35
+      - 🇨🇳 中国 TG@Crap996 36
+      - 🇨🇳 中国 TG@Crap996 37
+      - 🇨🇳 中国 TG@Crap996 38
+      - 🇨🇳 中国 TG@Crap996 39
+      - 🇨🇳 中国 TG@Crap996 40
+      - 🇨🇳 中国 TG@Crap996 41
+      - 🇨🇳 中国 TG@Crap996 42
+      - 🇨🇳 中国 TG@Crap996 43
+      - 🇨🇳 中国 TG@Crap996 44
+      - 🇨🇳 中国 TG@Crap996 45
+      - 🇨🇳 中国 TG@Crap996 46
+      - 🇨🇳 中国 TG@Crap996 47
+      - 🇨🇳 中国 TG@Crap996 48
+      - 🇨🇳 中国 TG@Crap996 49
+      - 🇨🇳 中国 TG@Crap996 50
+      - 🇨🇳 中国 TG@Crap996 51
+      - 🇩🇪 德国 TG@Crap996 52
+      - 🇨🇳 中国 TG@Crap996 53
+      - 🇨🇳 中国 TG@Crap996 54
+      - 🇨🇳 中国 TG@Crap996 55
+      - 🇨🇳 中国 TG@Crap996 56
+      - 🇺🇸 美国 TG@Crap996 57
+      - 🇺🇸 美国 TG@Crap996 58
+      - 🇨🇳 中国 TG@Crap996 59
+      - 🇨🇳 中国 TG@Crap996 60
+      - 🇺🇸 美国 TG@Crap996 61
+      - 🇺🇸 美国 TG@Crap996 62
+      - 🇨🇳 中国 TG@Crap996 63
+      - 🇨🇳 中国 TG@Crap996 64
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+      - 🇨🇳 中国 TG@Crap996 1
+      - 🇨🇳 中国 TG@Crap996 2
+      - 🇨🇳 中国 TG@Crap996 3
+      - 🇺🇸 美国 TG@Crap996 4
+      - 🇷🇺 俄罗斯联邦 TG@Crap996 5
+      - 🇺🇸 美国 TG@Crap996 6
+      - 🇺🇸 美国 TG@Crap996 7
+      - 🇨🇳 中国 TG@Crap996 8
+      - 🇺🇸 美国 TG@Crap996 9
+      - 🇺🇸 美国 TG@Crap996 10
+      - 🇺🇸 美国 TG@Crap996 11
+      - 🇸🇬 新加坡 TG@Crap996 12
+      - 🇺🇸 美国 TG@Crap996 13
+      - 🇺🇸 美国 TG@Crap996 14
+      - 🇨🇳 中国 TG@Crap996 15
+      - 🇺🇸 美国 TG@Crap996 16
+      - 🇨🇳 中国 TG@Crap996 17
+      - 🇨🇳 中国 TG@Crap996 18
+      - 🇸🇬 新加坡 TG@Crap996 19
+      - 🇸🇬 新加坡 TG@Crap996 20
+      - 🇸🇬 新加坡 TG@Crap996 21
+      - 🇨🇳 中国 TG@Crap996 22
+      - 🇨🇳 中国 TG@Crap996 23
+      - 🇨🇳 中国 TG@Crap996 24
+      - 🇨🇳 中国 TG@Crap996 25
+      - 🇨🇳 中国 TG@Crap996 26
+      - 🇨🇳 中国 TG@Crap996 27
+      - 🇨🇳 中国 TG@Crap996 28
+      - 🇨🇳 中国 TG@Crap996 29
+      - 🇨🇳 中国 TG@Crap996 30
+      - 🇨🇳 中国 TG@Crap996 31
+      - 🇸🇬 新加坡 TG@Crap996 32
+      - 🇰🇪 肯尼亚 TG@Crap996 33
+      - 🇨🇳 中国 TG@Crap996 34
+      - 🇨🇳 中国 TG@Crap996 35
+      - 🇨🇳 中国 TG@Crap996 36
+      - 🇨🇳 中国 TG@Crap996 37
+      - 🇨🇳 中国 TG@Crap996 38
+      - 🇨🇳 中国 TG@Crap996 39
+      - 🇨🇳 中国 TG@Crap996 40
+      - 🇨🇳 中国 TG@Crap996 41
+      - 🇨🇳 中国 TG@Crap996 42
+      - 🇨🇳 中国 TG@Crap996 43
+      - 🇨🇳 中国 TG@Crap996 44
+      - 🇨🇳 中国 TG@Crap996 45
+      - 🇨🇳 中国 TG@Crap996 46
+      - 🇨🇳 中国 TG@Crap996 47
+      - 🇨🇳 中国 TG@Crap996 48
+      - 🇨🇳 中国 TG@Crap996 49
+      - 🇨🇳 中国 TG@Crap996 50
+      - 🇨🇳 中国 TG@Crap996 51
+      - 🇩🇪 德国 TG@Crap996 52
+      - 🇨🇳 中国 TG@Crap996 53
+      - 🇨🇳 中国 TG@Crap996 54
+      - 🇨🇳 中国 TG@Crap996 55
+      - 🇨🇳 中国 TG@Crap996 56
+      - 🇺🇸 美国 TG@Crap996 57
+      - 🇺🇸 美国 TG@Crap996 58
+      - 🇨🇳 中国 TG@Crap996 59
+      - 🇨🇳 中国 TG@Crap996 60
+      - 🇺🇸 美国 TG@Crap996 61
+      - 🇺🇸 美国 TG@Crap996 62
+      - 🇨🇳 中国 TG@Crap996 63
+      - 🇨🇳 中国 TG@Crap996 64
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇨🇳 中国 TG@Crap996 1
+      - 🇨🇳 中国 TG@Crap996 2
+      - 🇨🇳 中国 TG@Crap996 3
+      - 🇺🇸 美国 TG@Crap996 4
+      - 🇷🇺 俄罗斯联邦 TG@Crap996 5
+      - 🇺🇸 美国 TG@Crap996 6
+      - 🇺🇸 美国 TG@Crap996 7
+      - 🇨🇳 中国 TG@Crap996 8
+      - 🇺🇸 美国 TG@Crap996 9
+      - 🇺🇸 美国 TG@Crap996 10
+      - 🇺🇸 美国 TG@Crap996 11
+      - 🇸🇬 新加坡 TG@Crap996 12
+      - 🇺🇸 美国 TG@Crap996 13
+      - 🇺🇸 美国 TG@Crap996 14
+      - 🇨🇳 中国 TG@Crap996 15
+      - 🇺🇸 美国 TG@Crap996 16
+      - 🇨🇳 中国 TG@Crap996 17
+      - 🇨🇳 中国 TG@Crap996 18
+      - 🇸🇬 新加坡 TG@Crap996 19
+      - 🇸🇬 新加坡 TG@Crap996 20
+      - 🇸🇬 新加坡 TG@Crap996 21
+      - 🇨🇳 中国 TG@Crap996 22
+      - 🇨🇳 中国 TG@Crap996 23
+      - 🇨🇳 中国 TG@Crap996 24
+      - 🇨🇳 中国 TG@Crap996 25
+      - 🇨🇳 中国 TG@Crap996 26
+      - 🇨🇳 中国 TG@Crap996 27
+      - 🇨🇳 中国 TG@Crap996 28
+      - 🇨🇳 中国 TG@Crap996 29
+      - 🇨🇳 中国 TG@Crap996 30
+      - 🇨🇳 中国 TG@Crap996 31
+      - 🇸🇬 新加坡 TG@Crap996 32
+      - 🇰🇪 肯尼亚 TG@Crap996 33
+      - 🇨🇳 中国 TG@Crap996 34
+      - 🇨🇳 中国 TG@Crap996 35
+      - 🇨🇳 中国 TG@Crap996 36
+      - 🇨🇳 中国 TG@Crap996 37
+      - 🇨🇳 中国 TG@Crap996 38
+      - 🇨🇳 中国 TG@Crap996 39
+      - 🇨🇳 中国 TG@Crap996 40
+      - 🇨🇳 中国 TG@Crap996 41
+      - 🇨🇳 中国 TG@Crap996 42
+      - 🇨🇳 中国 TG@Crap996 43
+      - 🇨🇳 中国 TG@Crap996 44
+      - 🇨🇳 中国 TG@Crap996 45
+      - 🇨🇳 中国 TG@Crap996 46
+      - 🇨🇳 中国 TG@Crap996 47
+      - 🇨🇳 中国 TG@Crap996 48
+      - 🇨🇳 中国 TG@Crap996 49
+      - 🇨🇳 中国 TG@Crap996 50
+      - 🇨🇳 中国 TG@Crap996 51
+      - 🇩🇪 德国 TG@Crap996 52
+      - 🇨🇳 中国 TG@Crap996 53
+      - 🇨🇳 中国 TG@Crap996 54
+      - 🇨🇳 中国 TG@Crap996 55
+      - 🇨🇳 中国 TG@Crap996 56
+      - 🇺🇸 美国 TG@Crap996 57
+      - 🇺🇸 美国 TG@Crap996 58
+      - 🇨🇳 中国 TG@Crap996 59
+      - 🇨🇳 中国 TG@Crap996 60
+      - 🇺🇸 美国 TG@Crap996 61
+      - 🇺🇸 美国 TG@Crap996 62
+      - 🇨🇳 中国 TG@Crap996 63
+      - 🇨🇳 中国 TG@Crap996 64
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇨🇳 中国 TG@Crap996 1
+      - 🇨🇳 中国 TG@Crap996 2
+      - 🇨🇳 中国 TG@Crap996 3
+      - 🇺🇸 美国 TG@Crap996 4
+      - 🇷🇺 俄罗斯联邦 TG@Crap996 5
+      - 🇺🇸 美国 TG@Crap996 6
+      - 🇺🇸 美国 TG@Crap996 7
+      - 🇨🇳 中国 TG@Crap996 8
+      - 🇺🇸 美国 TG@Crap996 9
+      - 🇺🇸 美国 TG@Crap996 10
+      - 🇺🇸 美国 TG@Crap996 11
+      - 🇸🇬 新加坡 TG@Crap996 12
+      - 🇺🇸 美国 TG@Crap996 13
+      - 🇺🇸 美国 TG@Crap996 14
+      - 🇨🇳 中国 TG@Crap996 15
+      - 🇺🇸 美国 TG@Crap996 16
+      - 🇨🇳 中国 TG@Crap996 17
+      - 🇨🇳 中国 TG@Crap996 18
+      - 🇸🇬 新加坡 TG@Crap996 19
+      - 🇸🇬 新加坡 TG@Crap996 20
+      - 🇸🇬 新加坡 TG@Crap996 21
+      - 🇨🇳 中国 TG@Crap996 22
+      - 🇨🇳 中国 TG@Crap996 23
+      - 🇨🇳 中国 TG@Crap996 24
+      - 🇨🇳 中国 TG@Crap996 25
+      - 🇨🇳 中国 TG@Crap996 26
+      - 🇨🇳 中国 TG@Crap996 27
+      - 🇨🇳 中国 TG@Crap996 28
+      - 🇨🇳 中国 TG@Crap996 29
+      - 🇨🇳 中国 TG@Crap996 30
+      - 🇨🇳 中国 TG@Crap996 31
+      - 🇸🇬 新加坡 TG@Crap996 32
+      - 🇰🇪 肯尼亚 TG@Crap996 33
+      - 🇨🇳 中国 TG@Crap996 34
+      - 🇨🇳 中国 TG@Crap996 35
+      - 🇨🇳 中国 TG@Crap996 36
+      - 🇨🇳 中国 TG@Crap996 37
+      - 🇨🇳 中国 TG@Crap996 38
+      - 🇨🇳 中国 TG@Crap996 39
+      - 🇨🇳 中国 TG@Crap996 40
+      - 🇨🇳 中国 TG@Crap996 41
+      - 🇨🇳 中国 TG@Crap996 42
+      - 🇨🇳 中国 TG@Crap996 43
+      - 🇨🇳 中国 TG@Crap996 44
+      - 🇨🇳 中国 TG@Crap996 45
+      - 🇨🇳 中国 TG@Crap996 46
+      - 🇨🇳 中国 TG@Crap996 47
+      - 🇨🇳 中国 TG@Crap996 48
+      - 🇨🇳 中国 TG@Crap996 49
+      - 🇨🇳 中国 TG@Crap996 50
+      - 🇨🇳 中国 TG@Crap996 51
+      - 🇩🇪 德国 TG@Crap996 52
+      - 🇨🇳 中国 TG@Crap996 53
+      - 🇨🇳 中国 TG@Crap996 54
+      - 🇨🇳 中国 TG@Crap996 55
+      - 🇨🇳 中国 TG@Crap996 56
+      - 🇺🇸 美国 TG@Crap996 57
+      - 🇺🇸 美国 TG@Crap996 58
+      - 🇨🇳 中国 TG@Crap996 59
+      - 🇨🇳 中国 TG@Crap996 60
+      - 🇺🇸 美国 TG@Crap996 61
+      - 🇺🇸 美国 TG@Crap996 62
+      - 🇨🇳 中国 TG@Crap996 63
+      - 🇨🇳 中国 TG@Crap996 64
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 🇨🇳 中国 TG@Crap996 1
+      - 🇨🇳 中国 TG@Crap996 2
+      - 🇨🇳 中国 TG@Crap996 3
+      - 🇺🇸 美国 TG@Crap996 4
+      - 🇷🇺 俄罗斯联邦 TG@Crap996 5
+      - 🇺🇸 美国 TG@Crap996 6
+      - 🇺🇸 美国 TG@Crap996 7
+      - 🇨🇳 中国 TG@Crap996 8
+      - 🇺🇸 美国 TG@Crap996 9
+      - 🇺🇸 美国 TG@Crap996 10
+      - 🇺🇸 美国 TG@Crap996 11
+      - 🇸🇬 新加坡 TG@Crap996 12
+      - 🇺🇸 美国 TG@Crap996 13
+      - 🇺🇸 美国 TG@Crap996 14
+      - 🇨🇳 中国 TG@Crap996 15
+      - 🇺🇸 美国 TG@Crap996 16
+      - 🇨🇳 中国 TG@Crap996 17
+      - 🇨🇳 中国 TG@Crap996 18
+      - 🇸🇬 新加坡 TG@Crap996 19
+      - 🇸🇬 新加坡 TG@Crap996 20
+      - 🇸🇬 新加坡 TG@Crap996 21
+      - 🇨🇳 中国 TG@Crap996 22
+      - 🇨🇳 中国 TG@Crap996 23
+      - 🇨🇳 中国 TG@Crap996 24
+      - 🇨🇳 中国 TG@Crap996 25
+      - 🇨🇳 中国 TG@Crap996 26
+      - 🇨🇳 中国 TG@Crap996 27
+      - 🇨🇳 中国 TG@Crap996 28
+      - 🇨🇳 中国 TG@Crap996 29
+      - 🇨🇳 中国 TG@Crap996 30
+      - 🇨🇳 中国 TG@Crap996 31
+      - 🇸🇬 新加坡 TG@Crap996 32
+      - 🇰🇪 肯尼亚 TG@Crap996 33
+      - 🇨🇳 中国 TG@Crap996 34
+      - 🇨🇳 中国 TG@Crap996 35
+      - 🇨🇳 中国 TG@Crap996 36
+      - 🇨🇳 中国 TG@Crap996 37
+      - 🇨🇳 中国 TG@Crap996 38
+      - 🇨🇳 中国 TG@Crap996 39
+      - 🇨🇳 中国 TG@Crap996 40
+      - 🇨🇳 中国 TG@Crap996 41
+      - 🇨🇳 中国 TG@Crap996 42
+      - 🇨🇳 中国 TG@Crap996 43
+      - 🇨🇳 中国 TG@Crap996 44
+      - 🇨🇳 中国 TG@Crap996 45
+      - 🇨🇳 中国 TG@Crap996 46
+      - 🇨🇳 中国 TG@Crap996 47
+      - 🇨🇳 中国 TG@Crap996 48
+      - 🇨🇳 中国 TG@Crap996 49
+      - 🇨🇳 中国 TG@Crap996 50
+      - 🇨🇳 中国 TG@Crap996 51
+      - 🇩🇪 德国 TG@Crap996 52
+      - 🇨🇳 中国 TG@Crap996 53
+      - 🇨🇳 中国 TG@Crap996 54
+      - 🇨🇳 中国 TG@Crap996 55
+      - 🇨🇳 中国 TG@Crap996 56
+      - 🇺🇸 美国 TG@Crap996 57
+      - 🇺🇸 美国 TG@Crap996 58
+      - 🇨🇳 中国 TG@Crap996 59
+      - 🇨🇳 中国 TG@Crap996 60
+      - 🇺🇸 美国 TG@Crap996 61
+      - 🇺🇸 美国 TG@Crap996 62
+      - 🇨🇳 中国 TG@Crap996 63
+      - 🇨🇳 中国 TG@Crap996 64
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇨🇳 中国 TG@Crap996 1
+      - 🇨🇳 中国 TG@Crap996 2
+      - 🇨🇳 中国 TG@Crap996 3
+      - 🇺🇸 美国 TG@Crap996 4
+      - 🇷🇺 俄罗斯联邦 TG@Crap996 5
+      - 🇺🇸 美国 TG@Crap996 6
+      - 🇺🇸 美国 TG@Crap996 7
+      - 🇨🇳 中国 TG@Crap996 8
+      - 🇺🇸 美国 TG@Crap996 9
+      - 🇺🇸 美国 TG@Crap996 10
+      - 🇺🇸 美国 TG@Crap996 11
+      - 🇸🇬 新加坡 TG@Crap996 12
+      - 🇺🇸 美国 TG@Crap996 13
+      - 🇺🇸 美国 TG@Crap996 14
+      - 🇨🇳 中国 TG@Crap996 15
+      - 🇺🇸 美国 TG@Crap996 16
+      - 🇨🇳 中国 TG@Crap996 17
+      - 🇨🇳 中国 TG@Crap996 18
+      - 🇸🇬 新加坡 TG@Crap996 19
+      - 🇸🇬 新加坡 TG@Crap996 20
+      - 🇸🇬 新加坡 TG@Crap996 21
+      - 🇨🇳 中国 TG@Crap996 22
+      - 🇨🇳 中国 TG@Crap996 23
+      - 🇨🇳 中国 TG@Crap996 24
+      - 🇨🇳 中国 TG@Crap996 25
+      - 🇨🇳 中国 TG@Crap996 26
+      - 🇨🇳 中国 TG@Crap996 27
+      - 🇨🇳 中国 TG@Crap996 28
+      - 🇨🇳 中国 TG@Crap996 29
+      - 🇨🇳 中国 TG@Crap996 30
+      - 🇨🇳 中国 TG@Crap996 31
+      - 🇸🇬 新加坡 TG@Crap996 32
+      - 🇰🇪 肯尼亚 TG@Crap996 33
+      - 🇨🇳 中国 TG@Crap996 34
+      - 🇨🇳 中国 TG@Crap996 35
+      - 🇨🇳 中国 TG@Crap996 36
+      - 🇨🇳 中国 TG@Crap996 37
+      - 🇨🇳 中国 TG@Crap996 38
+      - 🇨🇳 中国 TG@Crap996 39
+      - 🇨🇳 中国 TG@Crap996 40
+      - 🇨🇳 中国 TG@Crap996 41
+      - 🇨🇳 中国 TG@Crap996 42
+      - 🇨🇳 中国 TG@Crap996 43
+      - 🇨🇳 中国 TG@Crap996 44
+      - 🇨🇳 中国 TG@Crap996 45
+      - 🇨🇳 中国 TG@Crap996 46
+      - 🇨🇳 中国 TG@Crap996 47
+      - 🇨🇳 中国 TG@Crap996 48
+      - 🇨🇳 中国 TG@Crap996 49
+      - 🇨🇳 中国 TG@Crap996 50
+      - 🇨🇳 中国 TG@Crap996 51
+      - 🇩🇪 德国 TG@Crap996 52
+      - 🇨🇳 中国 TG@Crap996 53
+      - 🇨🇳 中国 TG@Crap996 54
+      - 🇨🇳 中国 TG@Crap996 55
+      - 🇨🇳 中国 TG@Crap996 56
+      - 🇺🇸 美国 TG@Crap996 57
+      - 🇺🇸 美国 TG@Crap996 58
+      - 🇨🇳 中国 TG@Crap996 59
+      - 🇨🇳 中国 TG@Crap996 60
+      - 🇺🇸 美国 TG@Crap996 61
+      - 🇺🇸 美国 TG@Crap996 62
+      - 🇨🇳 中国 TG@Crap996 63
+      - 🇨🇳 中国 TG@Crap996 64
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇨🇳 中国 TG@Crap996 1
+      - 🇨🇳 中国 TG@Crap996 2
+      - 🇨🇳 中国 TG@Crap996 3
+      - 🇺🇸 美国 TG@Crap996 4
+      - 🇷🇺 俄罗斯联邦 TG@Crap996 5
+      - 🇺🇸 美国 TG@Crap996 6
+      - 🇺🇸 美国 TG@Crap996 7
+      - 🇨🇳 中国 TG@Crap996 8
+      - 🇺🇸 美国 TG@Crap996 9
+      - 🇺🇸 美国 TG@Crap996 10
+      - 🇺🇸 美国 TG@Crap996 11
+      - 🇸🇬 新加坡 TG@Crap996 12
+      - 🇺🇸 美国 TG@Crap996 13
+      - 🇺🇸 美国 TG@Crap996 14
+      - 🇨🇳 中国 TG@Crap996 15
+      - 🇺🇸 美国 TG@Crap996 16
+      - 🇨🇳 中国 TG@Crap996 17
+      - 🇨🇳 中国 TG@Crap996 18
+      - 🇸🇬 新加坡 TG@Crap996 19
+      - 🇸🇬 新加坡 TG@Crap996 20
+      - 🇸🇬 新加坡 TG@Crap996 21
+      - 🇨🇳 中国 TG@Crap996 22
+      - 🇨🇳 中国 TG@Crap996 23
+      - 🇨🇳 中国 TG@Crap996 24
+      - 🇨🇳 中国 TG@Crap996 25
+      - 🇨🇳 中国 TG@Crap996 26
+      - 🇨🇳 中国 TG@Crap996 27
+      - 🇨🇳 中国 TG@Crap996 28
+      - 🇨🇳 中国 TG@Crap996 29
+      - 🇨🇳 中国 TG@Crap996 30
+      - 🇨🇳 中国 TG@Crap996 31
+      - 🇸🇬 新加坡 TG@Crap996 32
+      - 🇰🇪 肯尼亚 TG@Crap996 33
+      - 🇨🇳 中国 TG@Crap996 34
+      - 🇨🇳 中国 TG@Crap996 35
+      - 🇨🇳 中国 TG@Crap996 36
+      - 🇨🇳 中国 TG@Crap996 37
+      - 🇨🇳 中国 TG@Crap996 38
+      - 🇨🇳 中国 TG@Crap996 39
+      - 🇨🇳 中国 TG@Crap996 40
+      - 🇨🇳 中国 TG@Crap996 41
+      - 🇨🇳 中国 TG@Crap996 42
+      - 🇨🇳 中国 TG@Crap996 43
+      - 🇨🇳 中国 TG@Crap996 44
+      - 🇨🇳 中国 TG@Crap996 45
+      - 🇨🇳 中国 TG@Crap996 46
+      - 🇨🇳 中国 TG@Crap996 47
+      - 🇨🇳 中国 TG@Crap996 48
+      - 🇨🇳 中国 TG@Crap996 49
+      - 🇨🇳 中国 TG@Crap996 50
+      - 🇨🇳 中国 TG@Crap996 51
+      - 🇩🇪 德国 TG@Crap996 52
+      - 🇨🇳 中国 TG@Crap996 53
+      - 🇨🇳 中国 TG@Crap996 54
+      - 🇨🇳 中国 TG@Crap996 55
+      - 🇨🇳 中国 TG@Crap996 56
+      - 🇺🇸 美国 TG@Crap996 57
+      - 🇺🇸 美国 TG@Crap996 58
+      - 🇨🇳 中国 TG@Crap996 59
+      - 🇨🇳 中国 TG@Crap996 60
+      - 🇺🇸 美国 TG@Crap996 61
+      - 🇺🇸 美国 TG@Crap996 62
+      - 🇨🇳 中国 TG@Crap996 63
+      - 🇨🇳 中国 TG@Crap996 64
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇨🇳 中国 TG@Crap996 1
+      - 🇨🇳 中国 TG@Crap996 2
+      - 🇨🇳 中国 TG@Crap996 3
+      - 🇺🇸 美国 TG@Crap996 4
+      - 🇷🇺 俄罗斯联邦 TG@Crap996 5
+      - 🇺🇸 美国 TG@Crap996 6
+      - 🇺🇸 美国 TG@Crap996 7
+      - 🇨🇳 中国 TG@Crap996 8
+      - 🇺🇸 美国 TG@Crap996 9
+      - 🇺🇸 美国 TG@Crap996 10
+      - 🇺🇸 美国 TG@Crap996 11
+      - 🇸🇬 新加坡 TG@Crap996 12
+      - 🇺🇸 美国 TG@Crap996 13
+      - 🇺🇸 美国 TG@Crap996 14
+      - 🇨🇳 中国 TG@Crap996 15
+      - 🇺🇸 美国 TG@Crap996 16
+      - 🇨🇳 中国 TG@Crap996 17
+      - 🇨🇳 中国 TG@Crap996 18
+      - 🇸🇬 新加坡 TG@Crap996 19
+      - 🇸🇬 新加坡 TG@Crap996 20
+      - 🇸🇬 新加坡 TG@Crap996 21
+      - 🇨🇳 中国 TG@Crap996 22
+      - 🇨🇳 中国 TG@Crap996 23
+      - 🇨🇳 中国 TG@Crap996 24
+      - 🇨🇳 中国 TG@Crap996 25
+      - 🇨🇳 中国 TG@Crap996 26
+      - 🇨🇳 中国 TG@Crap996 27
+      - 🇨🇳 中国 TG@Crap996 28
+      - 🇨🇳 中国 TG@Crap996 29
+      - 🇨🇳 中国 TG@Crap996 30
+      - 🇨🇳 中国 TG@Crap996 31
+      - 🇸🇬 新加坡 TG@Crap996 32
+      - 🇰🇪 肯尼亚 TG@Crap996 33
+      - 🇨🇳 中国 TG@Crap996 34
+      - 🇨🇳 中国 TG@Crap996 35
+      - 🇨🇳 中国 TG@Crap996 36
+      - 🇨🇳 中国 TG@Crap996 37
+      - 🇨🇳 中国 TG@Crap996 38
+      - 🇨🇳 中国 TG@Crap996 39
+      - 🇨🇳 中国 TG@Crap996 40
+      - 🇨🇳 中国 TG@Crap996 41
+      - 🇨🇳 中国 TG@Crap996 42
+      - 🇨🇳 中国 TG@Crap996 43
+      - 🇨🇳 中国 TG@Crap996 44
+      - 🇨🇳 中国 TG@Crap996 45
+      - 🇨🇳 中国 TG@Crap996 46
+      - 🇨🇳 中国 TG@Crap996 47
+      - 🇨🇳 中国 TG@Crap996 48
+      - 🇨🇳 中国 TG@Crap996 49
+      - 🇨🇳 中国 TG@Crap996 50
+      - 🇨🇳 中国 TG@Crap996 51
+      - 🇩🇪 德国 TG@Crap996 52
+      - 🇨🇳 中国 TG@Crap996 53
+      - 🇨🇳 中国 TG@Crap996 54
+      - 🇨🇳 中国 TG@Crap996 55
+      - 🇨🇳 中国 TG@Crap996 56
+      - 🇺🇸 美国 TG@Crap996 57
+      - 🇺🇸 美国 TG@Crap996 58
+      - 🇨🇳 中国 TG@Crap996 59
+      - 🇨🇳 中国 TG@Crap996 60
+      - 🇺🇸 美国 TG@Crap996 61
+      - 🇺🇸 美国 TG@Crap996 62
+      - 🇨🇳 中国 TG@Crap996 63
+      - 🇨🇳 中国 TG@Crap996 64
+
+rule-providers:
+  applications:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
+    interval: 86400
+    path: ./ruleset/applications.yaml
+  private:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+    interval: 86400
+    path: ./ruleset/private.yaml
+  icloud:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
+    interval: 86400
+    path: ./ruleset/icloud.yaml
+  apple:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
+    interval: 86400
+    path: ./ruleset/apple.yaml
+  google:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt
+    interval: 86400
+    path: ./ruleset/google.yaml
+  direct:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
+    interval: 86400
+    path: ./ruleset/direct.yaml
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+    interval: 86400
+    path: ./ruleset/lancidr.yaml
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
+    interval: 86400
+    path: ./ruleset/cncidr.yaml
+  reject:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    interval: 86400
+    path: ./ruleset/reject.yaml
+  proxy:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
+    interval: 86400
+    path: ./ruleset/proxy.yaml
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
+    interval: 86400
+    path: ./ruleset/telegramcidr.yaml
+rules:
+  - RULE-SET,applications,🎯 全球直连
+  - RULE-SET,private,🎯 全球直连
+  - RULE-SET,icloud,🎯 全球直连
+  - RULE-SET,apple,🎯 全球直连
+  - RULE-SET,google,🎯 全球直连
+  - RULE-SET,direct,🎯 全球直连
+  - RULE-SET,lancidr,🎯 全球直连
+  - RULE-SET,cncidr,🎯 全球直连
+  - RULE-SET,reject,🛑 全球拦截
+  - RULE-SET,proxy,🗿 节点选择
+  - RULE-SET,telegramcidr,🗿 节点选择
+  - DOMAIN,clash.razord.top,🎯 全球直连
+  - DOMAIN,yacd.haishan.me,🎯 全球直连
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
