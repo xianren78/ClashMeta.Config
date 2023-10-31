@@ -68,6 +68,8 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       - https://sm2.doh.pub/dns-query
+proxies:
+  - {"name":"🛩️ Hysteria 2","type":"hysteria2","server":"103.245.237.90","port":4433,"password":"sharecentrepro","sni":"vn.sharecentre.online","skip-cert-verify":true}
 
 proxy-groups:
   - name: 🚀 节点选择
@@ -75,24 +77,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
+      - 🛩️ Hysteria 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
+      - 🛩️ Hysteria 2
   - name: 🚫 运营劫持
     type: select
     proxies:
@@ -105,68 +97,38 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
+      - 🛩️ Hysteria 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
+      - 🛩️ Hysteria 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
+      - 🛩️ Hysteria 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
+      - 🛩️ Hysteria 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
+      - 🛩️ Hysteria 2
   - name: 🍎 苹果服务
     type: select
     proxies: 
       - 🚀 节点选择
       - 🎯 全球直连
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
+      - 🛩️ Hysteria 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -190,59 +152,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚫 运营劫持
-    use:
-      - 🛩️ PoolNode
-      - 🛩️ Yam-πNode
-      - 🛩️ VPNNode
-      - 🛩️ NiceVPN
-      - 🛩️ MrXbinNode
-
-proxy-providers:
-  🛩️ PoolNode:
-    type: http
-    url: "https://get.66a.zone/https://raw.githubusercontent.com/snakem982/proxypool/main/clash2a5cb.yaml"
-    path: PoolNode.Clash/Pool.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ Yam-πNode:
-    type: http
-    url: "https://subscribe.cctv.rip/sub?target=clash&url=https%3A%2F%2Ffree.vpn66.eu.org%2F%7Chttps%3A%2F%2Ffree.88zh.top%2F&insert=false&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FACL4SSR%2FACL4SSR%40master%2FClash%2Fconfig%2FACL4SSR.ini&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
-    path: Yam-πNode.Clash/Yam-π.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ VPNNode:
-    type: http
-    url: "https://subscribe.cctv.rip/sub?target=clash&url=https%3A%2F%2Fplus.vpnyyds.link%2Fjd&insert=false&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FACL4SSR%2FACL4SSR%40master%2FClash%2Fconfig%2FACL4SSR.ini&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
-    path: VPNNode.Clash/VPN.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ NiceVPN:
-    type: http
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml"
-    path: NiceNode.Clash/NiceVPN.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ MrXbinNode:
-    type: http
-    url: "https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads"
-    path: MrXbinNode.Clash/MrXbin.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
+      - 🛩️ Hysteria 2
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
