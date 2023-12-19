@@ -15,9 +15,9 @@ dns:
   fallback: [tls://1.0.0.1:853, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query]
   fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32]}
 proxies:
-  - {name: "[VMess] 🇺🇸 ABox公益计划-US", server: scp.baiyunxray.top, port: 443, type: vmess, uuid: 7d04b6ca-939a-4ac1-bec4-34706a9cc68f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: scp.baiyunxray.top}}, udp: true}
-  - {name: "[VMess] 🇯🇵 ABox公益计划-JP", server: jp01.baiyunxray.top, port: 443, type: vmess, uuid: f0d9de30-c2ca-4171-cbb5-7bda566d0d08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp01.baiyunxray.top}}, udp: true}
-  - {name: "[VMess] 🇸🇬 ABo公益计划-SG", server: sg01.baiyunxray.top, port: 443, type: vmess, uuid: 4d59f07b-1f9a-4ca6-94c2-64e0595e2295, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.baiyunxray.top}}, udp: true}
+  - {name: "[VMess] 🇺🇸 TOP计划-US", server: scp.baiyunxray.top, port: 443, type: vmess, uuid: 7d04b6ca-939a-4ac1-bec4-34706a9cc68f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: scp.baiyunxray.top}}, udp: true}
+  - {name: "[VMess] 🇯🇵 TOP计划-JP", server: jp01.baiyunxray.top, port: 443, type: vmess, uuid: f0d9de30-c2ca-4171-cbb5-7bda566d0d08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp01.baiyunxray.top}}, udp: true}
+  - {name: "[VMess] 🇸🇬 TOP计划-SG", server: sg01.baiyunxray.top, port: 443, type: vmess, uuid: 4d59f07b-1f9a-4ca6-94c2-64e0595e2295, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.baiyunxray.top}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -26,35 +26,35 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - "[VMess] 🇺🇸 ABox公益计划-US"
-      - "[VMess] 🇯🇵 ABox公益计划-JP"
-      - "[VMess] 🇸🇬 ABo公益计划-SG"
+      - "[VMess] 🇺🇸 TOP计划-US"
+      - "[VMess] 🇯🇵 TOP计划-JP"
+      - "[VMess] 🇸🇬 TOP计划-SG"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] 🇺🇸 ABox公益计划-US"
-      - "[VMess] 🇯🇵 ABox公益计划-JP"
-      - "[VMess] 🇸🇬 ABo公益计划-SG"
+      - "[VMess] 🇺🇸 TOP计划-US"
+      - "[VMess] 🇯🇵 TOP计划-JP"
+      - "[VMess] 🇸🇬 TOP计划-SG"
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "[VMess] 🇺🇸 ABox公益计划-US"
-      - "[VMess] 🇯🇵 ABox公益计划-JP"
-      - "[VMess] 🇸🇬 ABo公益计划-SG"
+      - "[VMess] 🇺🇸 TOP计划-US"
+      - "[VMess] 🇯🇵 TOP计划-JP"
+      - "[VMess] 🇸🇬 TOP计划-SG"
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "[VMess] 🇺🇸 ABox公益计划-US"
-      - "[VMess] 🇯🇵 ABox公益计划-JP"
-      - "[VMess] 🇸🇬 ABo公益计划-SG"
+      - "[VMess] 🇺🇸 TOP计划-US"
+      - "[VMess] 🇯🇵 TOP计划-JP"
+      - "[VMess] 🇸🇬 TOP计划-SG"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,9 +74,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - "[VMess] 🇺🇸 ABox公益计划-US"
-      - "[VMess] 🇯🇵 ABox公益计划-JP"
-      - "[VMess] 🇸🇬 ABo公益计划-SG"
+      - "[VMess] 🇺🇸 TOP计划-US"
+      - "[VMess] 🇯🇵 TOP计划-JP"
+      - "[VMess] 🇸🇬 TOP计划-SG"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
