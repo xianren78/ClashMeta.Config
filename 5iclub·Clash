@@ -152,6 +152,7 @@ proxy-groups:
       - 🔮 负载均衡-轮询
     use:
       - 🛩️ Mareep·綿阿羊
+      - 🛩️ 5iclub·Vless
   - name: 🍎 苹果服务
     type: select
     proxies:
