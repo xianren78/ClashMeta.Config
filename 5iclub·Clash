@@ -212,7 +212,7 @@ proxy-groups:
 proxy-providers:
   🛩️ Mareep·綿阿羊:
     type: http
-    url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
+    url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_proxies_new.yaml"
     path: Mareep/Marge.yaml
     interval: 3600
     health-check:
@@ -222,7 +222,7 @@ proxy-providers:
   🛩️ 5iclub·Vless:
     type: http
     url: "https://git.clod.cloudns.org/https://raw.githubusercontent.com/ClodQiu/Clash.Base64/Grey/5iclub.yaml"
-    path: Mareep/Marge.yaml
+    path: 5iclub/Vless.yaml
     interval: 3600
     health-check:
       enable: true
