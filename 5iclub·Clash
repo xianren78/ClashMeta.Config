@@ -76,6 +76,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
+      - 🛩️ 5iclub·Hysteria
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -87,6 +88,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
+      - 🛩️ 5iclub·Hysteria
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -95,6 +97,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
+      - 🛩️ 5iclub·Hysteria
   - name: 🔮 负载均衡-散列
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -104,6 +107,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
+      - 🛩️ 5iclub·Hysteria
   - name: 🔮 负载均衡-轮询
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -113,6 +117,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
+      - 🛩️ 5iclub·Hysteria
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -136,6 +141,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
+      - 🛩️ 5iclub·Hysteria
 
 proxy-providers:
   🛩️ Mareep·綿阿羊:
@@ -156,7 +162,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-  🛩️ 5iclub·hysteria:
+  🛩️ 5iclub·Hysteria:
     type: http
     url: "https://v.id9.cc/sub?target=clash&url=https%3A%2F%2Fchromenodes.marcol.top&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FProfile%2Fmain%2Foutpref%2Fpypref%2Fpylite-nc.ini&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false&new_name=true"
     path: 5iclub/hysteria.yaml
