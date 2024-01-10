@@ -113,78 +113,6 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🌐 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 🔮 负载均衡-散列
-      - 🔮 负载均衡-轮询
-    use:
-      - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🔮 负载均衡-散列
-      - 🔮 负载均衡-轮询
-    use:
-      - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🌐 节点选择
-      - 🔮 负载均衡-散列
-      - 🔮 负载均衡-轮询
-    use:
-      - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🌐 节点选择
-      - 🔮 负载均衡-散列
-      - 🔮 负载均衡-轮询
-    use:
-      - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🌐 节点选择
-      - 🔮 负载均衡-散列
-      - 🔮 负载均衡-轮询
-    use:
-      - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
-  - name: 📲 电报消息
-    type: select
-    proxies:
-      - 🌐 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 🔮 负载均衡-散列
-      - 🔮 负载均衡-轮询
-    use:
-      - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
-  - name: 📹 油管视频
-    type: select
-    proxies:
-      - 🌐 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 🔮 负载均衡-散列
-      - 🔮 负载均衡-轮询
-    use:
-      - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -318,15 +246,13 @@ rules:
   - RULE-SET,private,🎯 全球直连
   - RULE-SET,reject,🛑 全球拦截
   - RULE-SET,icloud,🎯 全球直连
-  - RULE-SET,apple,🍎 苹果服务
-  - RULE-SET,google,📢 谷歌FCM
+  - RULE-SET,apple,🎯 全球直连
+  - RULE-SET,google,D🎯 全球直连
   - RULE-SET,proxy,🌐 节点选择
   - RULE-SET,direct,🎯 全球直连
   - RULE-SET,lancidr,🎯 全球直连
-  - RULE-SET,cncidr,🌏 国内媒体
-  - RULE-SET,tld-not-cn,🌍 国外媒体
-  - RULE-SET,gfw,🌐 节点选择
-  - RULE-SET,telegramcidr,📲 电报消息
+  - RULE-SET,cncidr,🎯 全球直连
+  - RULE-SET,telegramcidr,🌐 节点选择
   - GEOIP,LAN,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连,no-resolve
-  - MATCH,🐟 漏网之鱼
+  - MATCH,🌐 节点选择
