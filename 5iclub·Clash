@@ -88,7 +88,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ NEKO.WAR
+      - 🛩️ NEKO.WARP
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -97,7 +97,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ NEKO.WAR
+      - 🛩️ NEKO.WARP
   - name: 🔮 负载均衡-散列
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -107,6 +107,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
+      - 🛩️ NEKO.WARP
   - name: 🔮 负载均衡-轮询
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -116,6 +117,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
+      - 🛩️ NEKO.WARP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,7 +141,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ NEKO.WAR
+      - 🛩️ NEKO.WARP
 
 proxy-providers:
   🛩️ Mareep·綿阿羊:
