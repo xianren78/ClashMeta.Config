@@ -76,7 +76,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ 5iclub·Hysteria
+      - 🛩️ NEKO.WAR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -88,7 +88,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ 5iclub·Hysteria
+      - 🛩️ NEKO.WAR
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -97,7 +97,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ 5iclub·Hysteria
+      - 🛩️ NEKO.WAR
   - name: 🔮 负载均衡-散列
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -107,7 +107,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ 5iclub·Hysteria
+      - 🛩️ NEKO.WAR
   - name: 🔮 负载均衡-轮询
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -117,7 +117,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ 5iclub·Hysteria
+      - 🛩️ NEKO.WAR
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,7 +141,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ 5iclub·Hysteria
+      - 🛩️ NEKO.WAR
 
 proxy-providers:
   🛩️ Mareep·綿阿羊:
@@ -162,17 +162,15 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-  🛩️ 5iclub·Hysteria:
+  🛩️ NEKO.WARP:
     type: http
-    url: "https://url.5iclub.cloudns.org/5iclub.Hysteria"
-    path: 5iclub/hysteria.yaml
+    url: "https://neko-warp.nloli.xyz"
+    path: NEKO/WARP.yaml
     interval: 3600
     health-check:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-
-
 
 rule-providers:
   reject:
