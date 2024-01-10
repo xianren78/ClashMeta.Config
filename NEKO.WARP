@@ -134,7 +134,7 @@ proxy-groups:
 proxy-providers:
   🛩️ NEKO.WARP:
     type: http
-    url: "https://neko-warp.nloli.xyz"
+    url: "https://neko-warp.nloli.xyz/neko_warp.yaml"
     path: NEKO/WARP.yaml
     interval: 3600
     health-check:
