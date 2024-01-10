@@ -76,7 +76,7 @@ proxy-groups:
     use:
       - 🛩️ Mareep·綿阿羊
       - 🛩️ 5iclub·Vless
-      - 🛩️ NEKO.WAR
+      - 🛩️ NEKO.WARP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
