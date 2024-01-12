@@ -155,7 +155,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   🛩️ 5iclub·Vless:
     type: http
-    url: "https://git.5iclub.cloudns.org/https://raw.githubusercontent.com/ClodQiu/Clash.Base64/Grey/5iclub·Vless"
+    url: "https://git.5iclub.cloudns.org/https://raw.githubusercontent.com/ClodQiu/Clash.Base64/Grey/YAML/5iclub·Vless"
     path: 5iclub/Vless.yaml
     interval: 3600
     health-check:
