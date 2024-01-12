@@ -146,7 +146,7 @@ proxy-groups:
 proxy-providers:
   🛩️ Mareep·綿阿羊:
     type: http
-    url: "https://url.5iclub.cloudns.org/Goat.Clash"
+    url: "https://url.5iclub.cloudns.org/5iClub.Hysteria"
     path: Mareep/Marge.yaml
     interval: 3600
     health-check:
