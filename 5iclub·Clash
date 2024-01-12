@@ -146,7 +146,7 @@ proxy-groups:
 proxy-providers:
   🛩️ Mareep·綿阿羊:
     type: http
-    url: "https://url.5iclub.cloudns.org/5iClub.Hysteria"
+    url: "https://mareep.netlify.app/sub/merged_proxies_new.yaml"
     path: Mareep/Marge.yaml
     interval: 3600
     health-check:
