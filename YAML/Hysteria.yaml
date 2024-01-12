@@ -20,5 +20,4 @@ proxies:
   - {"name":"5iClub·Hysteria 14","type":"hysteria","server":"www.dtku46.xyz","port":11223,"skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"mqoE9qSoyMFa","up":11,"down":55}
   - {"name":"5iClub·Hysteria 15","type":"hysteria","server":"108.181.2.154","port":33445,"skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55}
   - {"name":"5iClub·Hysteria 16","type":"hysteria","server":"167.160.91.116","port":55009,"skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55}
-  - {"name":"5iClub·Hysteria","server":"64.110.25.10","port":33445,"password":"dongtaiwang.com","uuid":"670998c6-a78f-43cc-86aa-29292476e040","sni":"bing.com","alpn":["h3"],"udp-relay-mode":"native","congestion_control":"bbr"}
   - {"name":"5iClub·Hysteria 17","type":"hysteria","server":"www.dtku50.xyz","port":56252,"sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":2,"down":10}
