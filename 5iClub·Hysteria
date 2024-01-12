@@ -134,7 +134,7 @@ proxy-groups:
 proxy-providers:
   🛩️ 5iClub·Hysteria:
     type: http
-    url: "https://url.5iclub.cloudns.org/5iClub.Hysteria"
+    url: "https://url.5iclub.cloudns.org/Goat.Clash"
     path: 5iClub/Hysteria.yaml
     interval: 3600
     health-check:
