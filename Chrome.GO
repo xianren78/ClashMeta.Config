@@ -74,7 +74,7 @@ proxy-groups:
       - 🔮 负载均衡-散列
       - DIRECT
     use:
-      - 🛩️ NEKO.WARP
+      - 🛩️ Chrome.GO
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -84,14 +84,14 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ NEKO.WARP
+      - 🛩️ Chrome.GO
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
     use:
-      - 🛩️ NEKO.WARP
+      - 🛩️ Chrome.GO
   - name: 🔮 负载均衡-散列
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -99,7 +99,7 @@ proxy-groups:
     strategy: consistent-hashing
     proxies:
     use:
-      - 🛩️ NEKO.WARP
+      - 🛩️ Chrome.GO
   - name: 🔮 负载均衡-轮询
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -107,7 +107,7 @@ proxy-groups:
     strategy: round-robin
     proxies:
     use:
-      - 🛩️ NEKO.WARP
+      - 🛩️ Chrome.GO
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -129,13 +129,13 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ NEKO.WARP
+      - 🛩️ Chrome.GO
 
 proxy-providers:
-  🛩️ NEKO.WARP:
+  🛩️ Chrome.GO:
     type: http
-    url: "https://neko-warp.nloli.xyz/neko_warp.yaml"
-    path: NEKO/WARP.yaml
+    url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fchromenodes.marcol.top%2F&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini&rename=%6051.158.54.46%40%F0%9F%93%A15iClub%60%60167.160.91.115%40%F0%9F%95%895iClub%60%60108.181.22.239%405%EF%B8%8F%E2%83%A35iClub%60%60173.234.25.52%40%F0%9F%8C%805iClub%60%60www.dtku46.xyz%40%F0%9F%8C%905iClub%60%60108.181.22.155%40%F0%9F%90%9F5iClub%60%60167.160.90.252%40%E2%99%BB%EF%B8%8F5iClub%60%60cloudflare.cfgo.cc%40%F0%9F%94%AE5iClub%60%60dongtaiwang3.com%40%F0%9F%8E%AF5iClub%60%60108.181.22.213%40%F0%9F%94%AF5iClub%60%60www.dtku50.xyz%40%F0%9F%9A%805iClub%60%60ip%40%F0%9F%8D%835iClub%60%60quick%40QUICK%60&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
+    path: Chrome/GO.yaml
     interval: 3600
     health-check:
       enable: true
