@@ -76,7 +76,6 @@ proxy-groups:
     use:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
-      - 🛩️ Gitlab 168
       - 🛩️ Github 贰猫仔
       - 🛩️ Github 闪烁科技
   - name: ♻️ 自动选择
@@ -90,7 +89,6 @@ proxy-groups:
     use:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
-      - 🛩️ Gitlab 168
       - 🛩️ Github 贰猫仔
       - 🛩️ Github 闪烁科技
   - name: 🔯 故障转移
@@ -101,7 +99,6 @@ proxy-groups:
     use:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
-      - 🛩️ Gitlab 168
       - 🛩️ Github 贰猫仔
       - 🛩️ Github 闪烁科技
   - name: 🔮 负载均衡-散列
@@ -113,7 +110,6 @@ proxy-groups:
     use:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
-      - 🛩️ Gitlab 168
       - 🛩️ Github 贰猫仔
       - 🛩️ Github 闪烁科技
   - name: 🔮 负载均衡-轮询
@@ -125,7 +121,6 @@ proxy-groups:
     use:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
-      - 🛩️ Gitlab 168
       - 🛩️ Github 贰猫仔
       - 🛩️ Github 闪烁科技
   - name: 🎯 全球直连
@@ -151,7 +146,6 @@ proxy-groups:
     use:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
-      - 🛩️ Gitlab 168
       - 🛩️ Github 贰猫仔
       - 🛩️ Github 闪烁科技
 
@@ -169,15 +163,6 @@ proxy-providers:
     type: http
     url: "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fvpnyyds.link%2Ffree&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini"
     path: VPNNode.Clash/VPN.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ Gitlab 168:
-    type: http
-    url: "https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads"
-    path: 168Node.Clash/168.yaml
     interval: 3600
     health-check:
       enable: true
