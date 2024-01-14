@@ -86,7 +86,6 @@ proxy-groups:
       - 🔮 负载均衡-散列
     use:
       - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
       - 🛩️ NEKO.WARP
   - name: 🔯 故障转移
     type: fallback
@@ -95,7 +94,6 @@ proxy-groups:
     proxies:
     use:
       - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
       - 🛩️ NEKO.WARP
   - name: 🔮 负载均衡-散列
     type: load-balance
@@ -105,7 +103,6 @@ proxy-groups:
     proxies:
     use:
       - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
       - 🛩️ NEKO.WARP
   - name: 🔮 负载均衡-轮询
     type: load-balance
@@ -115,7 +112,6 @@ proxy-groups:
     proxies:
     use:
       - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
       - 🛩️ NEKO.WARP
   - name: 🎯 全球直连
     type: select
@@ -139,7 +135,6 @@ proxy-groups:
       - 🔮 负载均衡-散列
     use:
       - 🛩️ Mareep·綿阿羊
-      - 🛩️ 5iclub·Vless
       - 🛩️ NEKO.WARP
 
 proxy-providers:
