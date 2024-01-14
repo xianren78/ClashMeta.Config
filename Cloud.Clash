@@ -77,7 +77,6 @@ proxy-groups:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
       - 🛩️ Github 贰猫仔
-      - 🛩️ Github 闪烁科技
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -90,7 +89,6 @@ proxy-groups:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
       - 🛩️ Github 贰猫仔
-      - 🛩️ Github 闪烁科技
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -100,7 +98,6 @@ proxy-groups:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
       - 🛩️ Github 贰猫仔
-      - 🛩️ Github 闪烁科技
   - name: 🔮 负载均衡-散列
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -111,7 +108,6 @@ proxy-groups:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
       - 🛩️ Github 贰猫仔
-      - 🛩️ Github 闪烁科技
   - name: 🔮 负载均衡-轮询
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -122,7 +118,6 @@ proxy-groups:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
       - 🛩️ Github 贰猫仔
-      - 🛩️ Github 闪烁科技
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,7 +142,6 @@ proxy-groups:
       - 🛩️ Telegram 烤红薯
       - 🛩️ Telegram VPN
       - 🛩️ Github 贰猫仔
-      - 🛩️ Github 闪烁科技
 
 proxy-providers:
   🛩️ Telegram 烤红薯:
@@ -172,15 +166,6 @@ proxy-providers:
     type: http
     url: "https://raw.gitmirror.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
     path: ermaoziNode.Clash/ermaozi.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ Github 闪烁科技:
-    type: http
-    url: "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini"
-    path: bulinkNode.Clash/bulink.yaml
     interval: 3600
     health-check:
       enable: true
