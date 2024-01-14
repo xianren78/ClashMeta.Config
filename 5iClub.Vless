@@ -84,7 +84,7 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ 5iclub.Vless
+      - 🛩️ 5iClub.Vless
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
