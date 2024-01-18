@@ -134,7 +134,7 @@ proxy-groups:
 proxy-providers:
   🛩️ 5iClub·計畫通行:
     type: http
-    url: "https://url.669.cloudns.org/Cloud.Clash"
+    url: "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fbulink.me%2Fsub%2F3yds9%2Fvm%7Chttps%3A%2F%2Fvpnyyds.link%2Ffree%7Chttps%3A%2F%2Fjc.openxai.link%2F%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fermaozi%2Fget_subscribe%2Fmain%2Fsubscribe%2Fv2ray.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini"
     path: 5iClub/stars.yaml
     interval: 3600
     health-check:
