@@ -74,7 +74,10 @@ proxy-groups:
       - 🔮 负载均衡-散列
       - DIRECT
     use:
-      - 🛩️ 5iClub·計畫通行
+      - 🛩️ Bulink·FERR
+      - 🛩️ KUSHE·FERR
+      - 🛩️ SWEET·FERR
+      - 🛩️ MEOW·FERR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -84,14 +87,20 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ 5iClub·計畫通行
+      - 🛩️ Bulink·FERR
+      - 🛩️ KUSHE·FERR
+      - 🛩️ SWEET·FERR
+      - 🛩️ MEOW·FERR
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
     use:
-      - 🛩️ 5iClub·計畫通行
+      - 🛩️ Bulink·FERR
+      - 🛩️ KUSHE·FERR
+      - 🛩️ SWEET·FERR
+      - 🛩️ MEOW·FERR
   - name: 🔮 负载均衡-散列
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -99,7 +108,10 @@ proxy-groups:
     strategy: consistent-hashing
     proxies:
     use:
-      - 🛩️ 5iClub·計畫通行
+      - 🛩️ Bulink·FERR
+      - 🛩️ KUSHE·FERR
+      - 🛩️ SWEET·FERR
+      - 🛩️ MEOW·FERR
   - name: 🔮 负载均衡-轮询
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -107,7 +119,10 @@ proxy-groups:
     strategy: round-robin
     proxies:
     use:
-      - 🛩️ 5iClub·計畫通行
+      - 🛩️ Bulink·FERR
+      - 🛩️ KUSHE·FERR
+      - 🛩️ SWEET·FERR
+      - 🛩️ MEOW·FERR
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -129,18 +144,48 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ 5iClub·計畫通行
-
+      - 🛩️ Bulink·FERR
+      - 🛩️ KUSHE·FERR
+      - 🛩️ SWEET·FERR
+      - 🛩️ MEOW·FERR
 proxy-providers:
-  🛩️ 5iClub·計畫通行:
+  🛩️ Bulink·FERR:
     type: http
-    url: "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fbulink.me%2Fsub%2F3yds9%2Fvm%7Chttps%3A%2F%2Fvpnyyds.link%2Ffree%7Chttps%3A%2F%2Fjc.openxai.link%2F%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fermaozi%2Fget_subscribe%2Fmain%2Fsubscribe%2Fv2ray.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini"
-    path: 5iClub/stars.yaml
+    url: "https://url.669.cloudns.org/Bulink.FERR"
+    path: Bulink/FERR.yaml
     interval: 3600
     health-check:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
+  🛩️ KUSHE·FERR:
+    type: http
+    url: "https://url.669.cloudns.org/KUSHE.FREE"
+    path: KUSHE/FERR.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  🛩️ SWEET·FERR:
+    type: http
+    url: "https://url.669.cloudns.org/SWEET.FREE"
+    path: SWEET/FERR.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  🛩️ MEOW·FERR:
+    type: http
+    url: "https://url.669.cloudns.org/MEOW.FREE"
+    path: MEOW/FERR.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+
 
 
 rule-providers:
