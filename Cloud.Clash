@@ -1,5 +1,5 @@
 #  Hi,We are free ,please avoid fraud.
-#  Generated at 2023-12-31 00:00 by ClodQiu
+#  Generated at 2023-12-31 00:00 by WekiYun
 #  Clash.Meta Core
 ipv6: true
 allow-lan: true
@@ -74,9 +74,7 @@ proxy-groups:
       - 🔮 负载均衡-散列
       - DIRECT
     use:
-      - 🛩️ Telegram 烤红薯
-      - 🛩️ Telegram VPN
-      - 🛩️ Github 贰猫仔
+      - 🛩️ 5iClub·計畫通行
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -86,18 +84,14 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ Telegram 烤红薯
-      - 🛩️ Telegram VPN
-      - 🛩️ Github 贰猫仔
+      - 🛩️ 5iClub·計畫通行
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
     use:
-      - 🛩️ Telegram 烤红薯
-      - 🛩️ Telegram VPN
-      - 🛩️ Github 贰猫仔
+      - 🛩️ 5iClub·計畫通行
   - name: 🔮 负载均衡-散列
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -105,9 +99,7 @@ proxy-groups:
     strategy: consistent-hashing
     proxies:
     use:
-      - 🛩️ Telegram 烤红薯
-      - 🛩️ Telegram VPN
-      - 🛩️ Github 贰猫仔
+      - 🛩️ 5iClub·計畫通行
   - name: 🔮 负载均衡-轮询
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -115,9 +107,7 @@ proxy-groups:
     strategy: round-robin
     proxies:
     use:
-      - 🛩️ Telegram 烤红薯
-      - 🛩️ Telegram VPN
-      - 🛩️ Github 贰猫仔
+      - 🛩️ 5iClub·計畫通行
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,38 +129,19 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ Telegram 烤红薯
-      - 🛩️ Telegram VPN
-      - 🛩️ Github 贰猫仔
+      - 🛩️ 5iClub·計畫通行
 
 proxy-providers:
-  🛩️ Telegram 烤红薯:
+  🛩️ 5iClub·計畫通行:
     type: http
-    url: "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fjc.openxai.link%2F&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini"
-    path: Yam-πNode.Clash/Yam-π.yaml
+    url: "https://url.669.cloudns.org/Cloud.Clash"
+    path: 5iClub/stars.yaml
     interval: 3600
     health-check:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-  🛩️ Telegram VPN:
-    type: http
-    url: "https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https%3A%2F%2Fvpnyyds.link%2Ffree&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini"
-    path: VPNNode.Clash/VPN.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ Github 贰猫仔:
-    type: http
-    url: "https://raw.gitmirror.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
-    path: ermaoziNode.Clash/ermaozi.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
+
 
 rule-providers:
   reject:
