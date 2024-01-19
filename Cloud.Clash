@@ -74,10 +74,7 @@ proxy-groups:
       - 🔮 负载均衡-散列
       - DIRECT
     use:
-      - 🛩️ Bulink·FERR
-      - 🛩️ KUSHE·FERR
-      - 🛩️ SWEET·FERR
-      - 🛩️ MEOW·FERR
+      - 🛩️ 5iClub·計畫通行
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -87,20 +84,14 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ Bulink·FERR
-      - 🛩️ KUSHE·FERR
-      - 🛩️ SWEET·FERR
-      - 🛩️ MEOW·FERR
+      - 🛩️ 5iClub·計畫通行
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
     use:
-      - 🛩️ Bulink·FERR
-      - 🛩️ KUSHE·FERR
-      - 🛩️ SWEET·FERR
-      - 🛩️ MEOW·FERR
+      - 🛩️ 5iClub·計畫通行
   - name: 🔮 负载均衡-散列
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -108,10 +99,7 @@ proxy-groups:
     strategy: consistent-hashing
     proxies:
     use:
-      - 🛩️ Bulink·FERR
-      - 🛩️ KUSHE·FERR
-      - 🛩️ SWEET·FERR
-      - 🛩️ MEOW·FERR
+      - 🛩️ 5iClub·計畫通行
   - name: 🔮 负载均衡-轮询
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -119,10 +107,7 @@ proxy-groups:
     strategy: round-robin
     proxies:
     use:
-      - 🛩️ Bulink·FERR
-      - 🛩️ KUSHE·FERR
-      - 🛩️ SWEET·FERR
-      - 🛩️ MEOW·FERR
+      - 🛩️ 5iClub·計畫通行
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -144,49 +129,17 @@ proxy-groups:
       - 🔮 负载均衡-轮询
       - 🔮 负载均衡-散列
     use:
-      - 🛩️ Bulink·FERR
-      - 🛩️ KUSHE·FERR
-      - 🛩️ SWEET·FERR
-      - 🛩️ MEOW·FERR
+      - 🛩️ 5iClub·計畫通行
 proxy-providers:
-  🛩️ Bulink·FERR:
+  🛩️ 5iClub·計畫通行:
     type: http
-    url: "https://url.669.cloudns.org/Bulink.FERR"
-    path: Bulink/FERR.yaml
+    url: "https://url.669.cloudns.org/STARS.FERR"
+    path: STARS/FERR.yaml
     interval: 3600
     health-check:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-  🛩️ KUSHE·FERR:
-    type: http
-    url: "https://url.669.cloudns.org/KUSHE.FREE"
-    path: KUSHE/FERR.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ SWEET·FERR:
-    type: http
-    url: "https://url.669.cloudns.org/SWEET.FREE"
-    path: SWEET/FERR.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  🛩️ MEOW·FERR:
-    type: http
-    url: "https://url.669.cloudns.org/MEOW.FREE"
-    path: MEOW/FERR.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-
-
 
 rule-providers:
   reject:
