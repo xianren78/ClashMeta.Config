@@ -1,0 +1,206 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1081,
+      "set_system_proxy": true
+    }
+  ],
+  "outbounds": [
+    {
+      "server": "104.20.24.85",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "fanya.lvzhuanglin.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "path": "/?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7a7641b2-9895-4e37-b03f-b66e0c924549",
+      "tag": "本订阅预防滥用10、20、30日更新\r",
+      "type": "vless"
+    },
+    {
+      "server": "104.20.28.101",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "fanya.lvzhuanglin.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "path": "/?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7a7641b2-9895-4e37-b03f-b66e0c924549",
+      "tag": "长期使用加QQ：1030644263\r",
+      "type": "vless"
+    },
+    {
+      "server": "104.20.55.186",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "fanya.lvzhuanglin.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "path": "/?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7a7641b2-9895-4e37-b03f-b66e0c924549",
+      "tag": "泛亚视频专用\r_1",
+      "type": "vless"
+    },
+    {
+      "server": "104.17.168.243",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "fanya.lvzhuanglin.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "path": "/?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7a7641b2-9895-4e37-b03f-b66e0c924549",
+      "tag": "泛亚视频专用\r_2",
+      "type": "vless"
+    },
+    {
+      "server": "104.20.54.224",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "fanya.lvzhuanglin.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "path": "/?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7a7641b2-9895-4e37-b03f-b66e0c924549",
+      "tag": "泛亚视频专用\r_3",
+      "type": "vless"
+    },
+    {
+      "server": "104.20.100.156",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "fanya.lvzhuanglin.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "path": "/?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7a7641b2-9895-4e37-b03f-b66e0c924549",
+      "tag": "泛亚视频专用\r_4",
+      "type": "vless"
+    },
+    {
+      "server": "104.18.64.101",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "fanya.lvzhuanglin.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "path": "/?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7a7641b2-9895-4e37-b03f-b66e0c924549",
+      "tag": "泛亚视频专用\r_5",
+      "type": "vless"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "outbound": "block"
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "geoip": [
+          "cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geoip": [
+          "private"
+        ],
+        "outbound": "direct"
+      }
+    ],
+    "auto_detect_interface": false
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "direct"
+  }
+}
