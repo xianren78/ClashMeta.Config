@@ -1,0 +1,433 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1081,
+      "set_system_proxy": true
+    }
+  ],
+  "outbounds": [
+    {
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "password": "6601fb90e9b3",
+      "method": "aes-128-gcm",
+      "tag": "高性价比机场:https://kfcloud.xyz/",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "service.ouluyun9803.com",
+      "server_port": 26668,
+      "password": "cfa17a0d-5e7d-4871-976e-f116e0818123",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "广东省广州市+移动_1",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "1j8p06.abzoones.xyz",
+      "server_port": 36111,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "甘肃省兰州市 移动_1",
+      "type": "vmess"
+    },
+    {
+      "server": "8m6y01.abzoones.xyz",
+      "server_port": 36887,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "甘肃省兰州市 移动_2",
+      "type": "vmess"
+    },
+    {
+      "server": "120.232.177.224",
+      "server_port": 8309,
+      "tls": {
+        "enabled": true,
+        "server_name": "hk-9-566.duuk.info",
+        "insecure": true
+      },
+      "password": "43fad462-cd67-5e80-a251-1145b94f9b0d",
+      "tag": "广东省广州市+移动_2",
+      "type": "trojan"
+    },
+    {
+      "server": "1j8p05.abzoones.xyz",
+      "server_port": 36106,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "甘肃省兰州市 移动_3",
+      "type": "vmess"
+    },
+    {
+      "server": "82.153.1.40",
+      "server_port": 80,
+      "transport": {
+        "path": "/4regrdfvx",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "英国 V2CROSS.COM",
+      "type": "vmess"
+    },
+    {
+      "server": "54.73.50.20",
+      "server_port": 22222,
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.miwan.co.uk",
+        "insecure": false
+      },
+      "password": "telegram-id-directvpn",
+      "tag": "爱尔兰+都柏林Amazon数据中心",
+      "type": "trojan"
+    },
+    {
+      "server": "13.37.9.17",
+      "server_port": 22222,
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.miwan.co.uk",
+        "insecure": false
+      },
+      "password": "telegram-id-privatevpns",
+      "tag": "美国+Amazon数据中心_1",
+      "type": "trojan"
+    },
+    {
+      "server": "1t8h04.abzoones.xyz",
+      "server_port": 36904,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "甘肃省兰州市 移动_4",
+      "type": "vmess"
+    },
+    {
+      "server": "tro.at678.top",
+      "server_port": 4204,
+      "tls": {
+        "enabled": true,
+        "server_name": "karyl.cc",
+        "insecure": true
+      },
+      "password": "901a6458-7c68-47c9-8500-75e73c4365a8",
+      "tag": "香港+电讯盈科有限公司",
+      "type": "trojan"
+    },
+    {
+      "server": "146.190.103.39",
+      "server_port": 2023,
+      "transport": {
+        "path": "/FREE-not_for_sale",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "8e82b259-dcf8-466c-acd1-02616af34386",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "美国 V2CROSS.COM",
+      "type": "vmess"
+    },
+    {
+      "server": "8r5u04.abzoones.xyz",
+      "server_port": 36851,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "甘肃省兰州市 移动_5",
+      "type": "vmess"
+    },
+    {
+      "server": "5c1a04.abzoones.xyz",
+      "server_port": 36701,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "甘肃省兰州市 移动_6",
+      "type": "vmess"
+    },
+    {
+      "server": "104.17.25.1",
+      "server_port": 80,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "d6664518-c8e1-42cf-f2c1-d33dcc01a8a6",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "美国 CloudFlare节点_1",
+      "type": "vmess"
+    },
+    {
+      "server": "us01.333210.xyz",
+      "server_port": 40000,
+      "tls": {
+        "enabled": true,
+        "server_name": "400567.xyz",
+        "insecure": true
+      },
+      "password": "892e4ff3-f8bb-42ac-9bd5-e103f235fc78",
+      "tag": "美国+俄勒冈州波特兰Amazon数据中心",
+      "type": "trojan"
+    },
+    {
+      "server": "8u9a04.abzoones.xyz",
+      "server_port": 36871,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "广东省江门市 移动",
+      "type": "vmess"
+    },
+    {
+      "server": "13.37.78.52",
+      "server_port": 22222,
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.miwan.co.uk",
+        "insecure": false
+      },
+      "password": "telegram-id-privatevpns",
+      "tag": "美国+Amazon数据中心_2",
+      "type": "trojan"
+    },
+    {
+      "server": "16.171.108.14",
+      "server_port": 22222,
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.miwan.co.uk",
+        "insecure": false
+      },
+      "password": "telegram-id-privatevpns",
+      "tag": "美国+惠普HP",
+      "type": "trojan"
+    },
+    {
+      "server": "120.232.177.224",
+      "server_port": 6306,
+      "tls": {
+        "enabled": true,
+        "server_name": "jp-6-559.duuk.info",
+        "insecure": true
+      },
+      "password": "43fad462-cd67-5e80-a251-1145b94f9b0d",
+      "tag": "广东省广州市+移动_3",
+      "type": "trojan"
+    },
+    {
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "password": "mps3FwmDjLrWaOVg",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "美国+麻省理工学院",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "149.40.62.114",
+      "server_port": 443,
+      "password": "EXmASbpxwohn93xht33mYpo/fymXyTKrm3v4DDMLZ8E=",
+      "method": "2022-blake3-aes-256-gcm:R1lKGvLE9llrsrE8+ljScaTSOPTZz3LZGavn9O3XphU=",
+      "tag": "美国+V2CROSS.COM_1",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "6e2s04.abzoones.xyz",
+      "server_port": 36884,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "甘肃省兰州市 移动_7",
+      "type": "vmess"
+    },
+    {
+      "server": "146.190.237.193",
+      "server_port": 55362,
+      "password": "DwB8qIL30ZyF5thpnCEhSv",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "美国+V2CROSS.COM_2",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "b13.ntbq.dynu.net",
+      "server_port": 7773,
+      "password": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "台湾省+中华电信(HiNet)数据中心",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "51.21.116.138",
+      "server_port": 22222,
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.miwan.co.uk",
+        "insecure": false
+      },
+      "password": "telegram-id-privatevpns",
+      "tag": "英国+社会保险安全部",
+      "type": "trojan"
+    },
+    {
+      "server": "92.223.124.15",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "sahar4.sytes.net"
+      },
+      "transport": {
+        "path": "/@forwardv2ray",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "a4d92be0-5c64-4fbe-a3cb-1177f8753b52",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "德国 V2CROSS.COM",
+      "type": "vmess"
+    },
+    {
+      "server": "35.178.209.137",
+      "server_port": 22222,
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.miwan.co.uk",
+        "insecure": false
+      },
+      "password": "telegram-id-privatevpns",
+      "tag": "英国+伦敦Amazon数据中心",
+      "type": "trojan"
+    },
+    {
+      "server": "cfcdn2.sanfencdn9.com",
+      "server_port": 2052,
+      "transport": {
+        "path": "/video/c9efxRCi",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "美国 CloudFlare节点_2",
+      "type": "vmess"
+    },
+    {
+      "server": "3v4n04.abzoones.xyz",
+      "server_port": 36874,
+      "uuid": "edc143f3-92a5-4079-a5a3-325c7d227fb2",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "甘肃省兰州市 移动_8",
+      "type": "vmess"
+    },
+    {
+      "server": "cf.178820225.xyz",
+      "server_port": 80,
+      "transport": {
+        "path": "/h5e65fd",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "美国 CloudFlare节点_3",
+      "type": "vmess"
+    },
+    {
+      "server": "129.146.113.254",
+      "server_port": 43121,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
+      "packet_encoding": "xudp",
+      "security": "aes-128-gcm",
+      "alter_id": 0,
+      "tag": "美国 亚利桑那州凤凰城Oracle云计算数据中心",
+      "type": "vmess"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "outbound": "block"
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "geoip": [
+          "cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geoip": [
+          "private"
+        ],
+        "outbound": "direct"
+      }
+    ],
+    "auto_detect_interface": false
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "direct"
+  }
+}
