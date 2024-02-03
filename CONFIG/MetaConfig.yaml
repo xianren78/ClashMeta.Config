@@ -9,8 +9,9 @@ tcp-concurrent: true
 external-controller: 0.0.0.0:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
-
+geo-update-interval: 24
 geodata-mode: true
+
 geox-url:
   geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
   geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
@@ -47,6 +48,7 @@ dns:
   listen: :1053
   ipv6: true
   enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
   fake-ip-filter:
     - "*"
     - "+.lan"
@@ -57,9 +59,9 @@ dns:
   proxy-server-nameserver:
     - https://doh.pub/dns-query
   nameserver-policy:
-    "rule-set:private":
+    "geosite:private":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "rule-set:geolocation-!cn":
+    "geosite:geolocation-!cn":
       - "https://dns.cloudflare.com/dns-query#dns"
       - "https://dns.google/dns-query#dns"
