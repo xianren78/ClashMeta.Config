@@ -135,7 +135,7 @@ proxy-groups:
 proxy-providers:
   🛩️ 5iClub·計畫通行:
     type: http
-    url: "https://url.669.cloudns.org/STARS.FERR"
+    url: "https://url.5i計畫通行.cloudns.org/STARS.FERR"
     path: STARS/FERR.yaml
     interval: 3600
     health-check:
