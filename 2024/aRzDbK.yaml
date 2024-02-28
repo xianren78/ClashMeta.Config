@@ -1,0 +1,2958 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1081,
+      "set_system_proxy": true
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "select",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "🇺🇸US_ 7022 @WangCai_8_1",
+        "🇺🇸US_ 7022 @WangCai_8_2",
+        "🇺🇸US_ 7022 @WangCai_8_3",
+        "🇺🇸US_ 7022 @WangCai_8_4",
+        "🇺🇸US_ 7022 @WangCai_8_5",
+        "🇺🇸US_ 7022 @WangCai_8_6",
+        "🇺🇸US_ 7022 @WangCai_8_7",
+        "🇺🇸US_ 7022 @WangCai_8_8",
+        "🇺🇸US_ 7022 @WangCai_8_9",
+        "🇺🇸US_ 7022 @WangCai_8_10",
+        "🇺🇸US_ 7022 @WangCai_8_11",
+        "🇺🇸US_ 7022 @WangCai_8_12",
+        "🇺🇸US_ 7022 @WangCai_8_13",
+        "🇺🇸US_ 7022 @WangCai_8_14",
+        "🇺🇸US_ 7022 @WangCai_8_15",
+        "🇺🇸US_ 7022 @WangCai_8_16",
+        "🇺🇸US_ 7022 @WangCai_8_17",
+        "🇺🇸US_ 7022 @WangCai_8_18",
+        "🇺🇸US_ 7022 @WangCai_8_19",
+        "🇺🇸US_ 7022 @WangCai_8_20",
+        "🇺🇸US_ 7022 @WangCai_8_21",
+        "🇺🇸US_ 7022 @WangCai_8_22",
+        "🇺🇸US_ 7022 @WangCai_8_23",
+        "🇺🇸US_ 7022 @WangCai_8_24",
+        "🇺🇸US_ 7022 @WangCai_8_25",
+        "🇺🇸US_ 7022 @WangCai_8_26",
+        "🇺🇸US_ 7022 @WangCai_8_27",
+        "🇺🇸US_ 7022 @WangCai_8_28",
+        "🇺🇸US_ 7022 @WangCai_8_29",
+        "🇺🇸US_ 7022 @WangCai_8_30",
+        "🇺🇸US_ 7022 @WangCai_8_31",
+        "🇺🇸US_ 7022 @WangCai_8_32",
+        "🇺🇸US_ 7022 @WangCai_8_33",
+        "🇺🇸US_ 7022 @WangCai_8_34",
+        "🇺🇸US_ 7022 @WangCai_8_35",
+        "🇺🇸US_ 7022 @WangCai_8_36",
+        "🇺🇸US_ 7022 @WangCai_8_37",
+        "🇺🇸US_ 7022 @WangCai_8_38",
+        "🇺🇸US_ 7022 @WangCai_8_39",
+        "🇺🇸US_ 7022 @WangCai_8_40",
+        "🇺🇸US_ 7022 @WangCai_8_41",
+        "🇺🇸US_ 7022 @WangCai_8_42",
+        "🇺🇸US_ 7022 @WangCai_8_43",
+        "🇺🇸US_ 7022 @WangCai_8_44",
+        "🇺🇸US_ 7022 @WangCai_8_45",
+        "🇺🇸US_ 7022 @WangCai_8_46",
+        "🇺🇸US_ 7022 @WangCai_8_47",
+        "🇺🇸US_ 7022 @WangCai_8_48",
+        "🇺🇸US_ 7022 @WangCai_8_49",
+        "🇺🇸US_ 7022 @WangCai_8_50",
+        "🇺🇸US_ 7022 @WangCai_8_51",
+        "🇺🇸US_ 7022 @WangCai_8_52",
+        "🇺🇸US_ 7022 @WangCai_8_53",
+        "🇺🇸US_ 7022 @WangCai_8_54",
+        "🇺🇸US_ 7022 @WangCai_8_55",
+        "🇺🇸US_ 7022 @WangCai_8_56",
+        "🇺🇸US_ 7022 @WangCai_8_57",
+        "🇺🇸US_ 7022 @WangCai_8_58",
+        "🇺🇸US_ 7022 @WangCai_8_59",
+        "🇺🇸US_ 7022 @WangCai_8_60",
+        "🇺🇸US_ 7022 @WangCai_8_61",
+        "🇺🇸US_ 7022 @WangCai_8_62",
+        "🇺🇸US_ 7022 @WangCai_8_63",
+        "🇺🇸US_ 7022 @WangCai_8_64",
+        "🇺🇸US_ 7022 @WangCai_8_65",
+        "🇺🇸US_ 7022 @WangCai_8_66",
+        "🇺🇸US_ 7022 @WangCai_8_67",
+        "🇺🇸US_ 7022 @WangCai_8_68",
+        "🇺🇸US_ 7022 @WangCai_8_69",
+        "🇺🇸US_ 7022 @WangCai_8_70",
+        "🇺🇸US_ 7022 @WangCai_8_71",
+        "🇺🇸US_ 7022 @WangCai_8_72",
+        "🇺🇸US_ 7022 @WangCai_8_73",
+        "🇺🇸US_ 7022 @WangCai_8_74",
+        "🇺🇸US_ 7022 @WangCai_8_75",
+        "🇺🇸US_ 7022 @WangCai_8_76",
+        "🇺🇸US_ 7022 @WangCai_8_77",
+        "🇺🇸US_ 7022 @WangCai_8_78",
+        "🇺🇸US_ 7022 @WangCai_8_79",
+        "🇺🇸US_ 7022 @WangCai_8_80",
+        "🇺🇸US_ 7022 @WangCai_8_81",
+        "🇺🇸US_ 7022 @WangCai_8_82",
+        "🇺🇸US_ 7022 @WangCai_8_83",
+        "🇺🇸US_ 7022 @WangCai_8_84",
+        "🇺🇸US_ 7022 @WangCai_8_85",
+        "🇺🇸US_ 7022 @WangCai_8_86",
+        "🇺🇸US_ 7022 @WangCai_8_87",
+        "🇺🇸US_ 7022 @WangCai_8_88",
+        "🇺🇸US_ 7022 @WangCai_8_89",
+        "🇺🇸US_ 7022 @WangCai_8_90",
+        "🇺🇸US_ 7022 @WangCai_8_91",
+        "🇺🇸US_ 7022 @WangCai_8_92",
+        "🇺🇸US_ 7022 @WangCai_8_93",
+        "🇺🇸US_ 7022 @WangCai_8_94",
+        "🇺🇸US_ 7022 @WangCai_8_95",
+        "🇺🇸US_ 7022 @WangCai_8_96",
+        "🇺🇸US_ 7022 @WangCai_8_97",
+        "🇺🇸US_ 7022 @WangCai_8_98",
+        "🇺🇸US_ 7022 @WangCai_8_99",
+        "🇺🇸US_ 7022 @WangCai_8_100",
+        "🇺🇸US_ 7022 @WangCai_8_101",
+        "🇺🇸US_ 7022 @WangCai_8_102",
+        "🇺🇸US_ 7022 @WangCai_8_103",
+        "🇺🇸US_ 7022 @WangCai_8_104",
+        "🇺🇸US_ 7022 @WangCai_8_105",
+        "🇺🇸US_ 7022 @WangCai_8_106",
+        "🇺🇸US_ 7022 @WangCai_8_107",
+        "🇺🇸US_ 7022 @WangCai_8_108",
+        "🇺🇸US_ 7022 @WangCai_8_109",
+        "🇺🇸US_ 7022 @WangCai_8_110",
+        "🇺🇸US_ 7022 @WangCai_8_111",
+        "🇺🇸US_ 7022 @WangCai_8_112",
+        "🇺🇸US_ 7022 @WangCai_8_113",
+        "🇺🇸US_ 7022 @WangCai_8_114",
+        "🇺🇸US_ 7022 @WangCai_8_115",
+        "🇺🇸US_ 7022 @WangCai_8_116",
+        "🇺🇸US_ 7022 @WangCai_8_117",
+        "🇺🇸US_ 7022 @WangCai_8_118",
+        "🇺🇸US_ 7022 @WangCai_8_119",
+        "🇺🇸US_ 7022 @WangCai_8_120",
+        "🇺🇸US_ 7022 @WangCai_8_121",
+        "🇺🇸US_ 7022 @WangCai_8_122",
+        "🇺🇸US_ 7022 @WangCai_8_123",
+        "🇺🇸US_ 7022 @WangCai_8_124",
+        "🇺🇸US_ 7022 @WangCai_8_125",
+        "🇺🇸US_ 7022 @WangCai_8_126",
+        "🇺🇸US_ 7022 @WangCai_8_127",
+        "🇺🇸US_ 7022 @WangCai_8_128",
+        "🇺🇸US_ 7022 @WangCai_8_129",
+        "🇺🇸US_ 7022 @WangCai_8_130",
+        "🇺🇸US_ 7022 @WangCai_8_131",
+        "🇺🇸US_ 7022 @WangCai_8_132",
+        "🇺🇸US_ 7022 @WangCai_8_133",
+        "🇺🇸US_ 7022 @WangCai_8_134",
+        "🇺🇸US_ 7022 @WangCai_8_135",
+        "🇺🇸US_ 7022 @WangCai_8_136",
+        "🇺🇸US_ 7022 @WangCai_8_137",
+        "🇺🇸US_ 7022 @WangCai_8_138",
+        "🇺🇸US_ 7022 @WangCai_8_139",
+        "🇺🇸US_ 7022 @WangCai_8_140",
+        "🇺🇸US_ 7022 @WangCai_8_141",
+        "🇺🇸US_ 7022 @WangCai_8_142",
+        "🇺🇸US_ 7022 @WangCai_8_143",
+        "🇺🇸US_ 7022 @WangCai_8_144",
+        "🇺🇸US_ 7022 @WangCai_8_145",
+        "🇺🇸US_ 7022 @WangCai_8_146",
+        "🇺🇸US_ 7022 @WangCai_8_147",
+        "🇺🇸US_ 7022 @WangCai_8_148",
+        "🇺🇸US_ 7022 @WangCai_8_149",
+        "🇺🇸US_ 7022 @WangCai_8_150",
+        "🇺🇸US_ 7022 @WangCai_8_151",
+        "🇺🇸US_ 7022 @WangCai_8_152",
+        "🇺🇸US_ 7022 @WangCai_8_153",
+        "🇺🇸US_ 7022 @WangCai_8_154",
+        "🇺🇸US_ 7022 @WangCai_8_155",
+        "🇺🇸US_ 7022 @WangCai_8_156",
+        "🇺🇸US_ 7022 @WangCai_8_157",
+        "🇺🇸US_ 7022 @WangCai_8_158",
+        "🇺🇸US_ 7022 @WangCai_8_159",
+        "🇺🇸US_ 7022 @WangCai_8_160"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "🇺🇸US_ 7022 @WangCai_8_1",
+        "🇺🇸US_ 7022 @WangCai_8_2",
+        "🇺🇸US_ 7022 @WangCai_8_3",
+        "🇺🇸US_ 7022 @WangCai_8_4",
+        "🇺🇸US_ 7022 @WangCai_8_5",
+        "🇺🇸US_ 7022 @WangCai_8_6",
+        "🇺🇸US_ 7022 @WangCai_8_7",
+        "🇺🇸US_ 7022 @WangCai_8_8",
+        "🇺🇸US_ 7022 @WangCai_8_9",
+        "🇺🇸US_ 7022 @WangCai_8_10",
+        "🇺🇸US_ 7022 @WangCai_8_11",
+        "🇺🇸US_ 7022 @WangCai_8_12",
+        "🇺🇸US_ 7022 @WangCai_8_13",
+        "🇺🇸US_ 7022 @WangCai_8_14",
+        "🇺🇸US_ 7022 @WangCai_8_15",
+        "🇺🇸US_ 7022 @WangCai_8_16",
+        "🇺🇸US_ 7022 @WangCai_8_17",
+        "🇺🇸US_ 7022 @WangCai_8_18",
+        "🇺🇸US_ 7022 @WangCai_8_19",
+        "🇺🇸US_ 7022 @WangCai_8_20",
+        "🇺🇸US_ 7022 @WangCai_8_21",
+        "🇺🇸US_ 7022 @WangCai_8_22",
+        "🇺🇸US_ 7022 @WangCai_8_23",
+        "🇺🇸US_ 7022 @WangCai_8_24",
+        "🇺🇸US_ 7022 @WangCai_8_25",
+        "🇺🇸US_ 7022 @WangCai_8_26",
+        "🇺🇸US_ 7022 @WangCai_8_27",
+        "🇺🇸US_ 7022 @WangCai_8_28",
+        "🇺🇸US_ 7022 @WangCai_8_29",
+        "🇺🇸US_ 7022 @WangCai_8_30",
+        "🇺🇸US_ 7022 @WangCai_8_31",
+        "🇺🇸US_ 7022 @WangCai_8_32",
+        "🇺🇸US_ 7022 @WangCai_8_33",
+        "🇺🇸US_ 7022 @WangCai_8_34",
+        "🇺🇸US_ 7022 @WangCai_8_35",
+        "🇺🇸US_ 7022 @WangCai_8_36",
+        "🇺🇸US_ 7022 @WangCai_8_37",
+        "🇺🇸US_ 7022 @WangCai_8_38",
+        "🇺🇸US_ 7022 @WangCai_8_39",
+        "🇺🇸US_ 7022 @WangCai_8_40",
+        "🇺🇸US_ 7022 @WangCai_8_41",
+        "🇺🇸US_ 7022 @WangCai_8_42",
+        "🇺🇸US_ 7022 @WangCai_8_43",
+        "🇺🇸US_ 7022 @WangCai_8_44",
+        "🇺🇸US_ 7022 @WangCai_8_45",
+        "🇺🇸US_ 7022 @WangCai_8_46",
+        "🇺🇸US_ 7022 @WangCai_8_47",
+        "🇺🇸US_ 7022 @WangCai_8_48",
+        "🇺🇸US_ 7022 @WangCai_8_49",
+        "🇺🇸US_ 7022 @WangCai_8_50",
+        "🇺🇸US_ 7022 @WangCai_8_51",
+        "🇺🇸US_ 7022 @WangCai_8_52",
+        "🇺🇸US_ 7022 @WangCai_8_53",
+        "🇺🇸US_ 7022 @WangCai_8_54",
+        "🇺🇸US_ 7022 @WangCai_8_55",
+        "🇺🇸US_ 7022 @WangCai_8_56",
+        "🇺🇸US_ 7022 @WangCai_8_57",
+        "🇺🇸US_ 7022 @WangCai_8_58",
+        "🇺🇸US_ 7022 @WangCai_8_59",
+        "🇺🇸US_ 7022 @WangCai_8_60",
+        "🇺🇸US_ 7022 @WangCai_8_61",
+        "🇺🇸US_ 7022 @WangCai_8_62",
+        "🇺🇸US_ 7022 @WangCai_8_63",
+        "🇺🇸US_ 7022 @WangCai_8_64",
+        "🇺🇸US_ 7022 @WangCai_8_65",
+        "🇺🇸US_ 7022 @WangCai_8_66",
+        "🇺🇸US_ 7022 @WangCai_8_67",
+        "🇺🇸US_ 7022 @WangCai_8_68",
+        "🇺🇸US_ 7022 @WangCai_8_69",
+        "🇺🇸US_ 7022 @WangCai_8_70",
+        "🇺🇸US_ 7022 @WangCai_8_71",
+        "🇺🇸US_ 7022 @WangCai_8_72",
+        "🇺🇸US_ 7022 @WangCai_8_73",
+        "🇺🇸US_ 7022 @WangCai_8_74",
+        "🇺🇸US_ 7022 @WangCai_8_75",
+        "🇺🇸US_ 7022 @WangCai_8_76",
+        "🇺🇸US_ 7022 @WangCai_8_77",
+        "🇺🇸US_ 7022 @WangCai_8_78",
+        "🇺🇸US_ 7022 @WangCai_8_79",
+        "🇺🇸US_ 7022 @WangCai_8_80",
+        "🇺🇸US_ 7022 @WangCai_8_81",
+        "🇺🇸US_ 7022 @WangCai_8_82",
+        "🇺🇸US_ 7022 @WangCai_8_83",
+        "🇺🇸US_ 7022 @WangCai_8_84",
+        "🇺🇸US_ 7022 @WangCai_8_85",
+        "🇺🇸US_ 7022 @WangCai_8_86",
+        "🇺🇸US_ 7022 @WangCai_8_87",
+        "🇺🇸US_ 7022 @WangCai_8_88",
+        "🇺🇸US_ 7022 @WangCai_8_89",
+        "🇺🇸US_ 7022 @WangCai_8_90",
+        "🇺🇸US_ 7022 @WangCai_8_91",
+        "🇺🇸US_ 7022 @WangCai_8_92",
+        "🇺🇸US_ 7022 @WangCai_8_93",
+        "🇺🇸US_ 7022 @WangCai_8_94",
+        "🇺🇸US_ 7022 @WangCai_8_95",
+        "🇺🇸US_ 7022 @WangCai_8_96",
+        "🇺🇸US_ 7022 @WangCai_8_97",
+        "🇺🇸US_ 7022 @WangCai_8_98",
+        "🇺🇸US_ 7022 @WangCai_8_99",
+        "🇺🇸US_ 7022 @WangCai_8_100",
+        "🇺🇸US_ 7022 @WangCai_8_101",
+        "🇺🇸US_ 7022 @WangCai_8_102",
+        "🇺🇸US_ 7022 @WangCai_8_103",
+        "🇺🇸US_ 7022 @WangCai_8_104",
+        "🇺🇸US_ 7022 @WangCai_8_105",
+        "🇺🇸US_ 7022 @WangCai_8_106",
+        "🇺🇸US_ 7022 @WangCai_8_107",
+        "🇺🇸US_ 7022 @WangCai_8_108",
+        "🇺🇸US_ 7022 @WangCai_8_109",
+        "🇺🇸US_ 7022 @WangCai_8_110",
+        "🇺🇸US_ 7022 @WangCai_8_111",
+        "🇺🇸US_ 7022 @WangCai_8_112",
+        "🇺🇸US_ 7022 @WangCai_8_113",
+        "🇺🇸US_ 7022 @WangCai_8_114",
+        "🇺🇸US_ 7022 @WangCai_8_115",
+        "🇺🇸US_ 7022 @WangCai_8_116",
+        "🇺🇸US_ 7022 @WangCai_8_117",
+        "🇺🇸US_ 7022 @WangCai_8_118",
+        "🇺🇸US_ 7022 @WangCai_8_119",
+        "🇺🇸US_ 7022 @WangCai_8_120",
+        "🇺🇸US_ 7022 @WangCai_8_121",
+        "🇺🇸US_ 7022 @WangCai_8_122",
+        "🇺🇸US_ 7022 @WangCai_8_123",
+        "🇺🇸US_ 7022 @WangCai_8_124",
+        "🇺🇸US_ 7022 @WangCai_8_125",
+        "🇺🇸US_ 7022 @WangCai_8_126",
+        "🇺🇸US_ 7022 @WangCai_8_127",
+        "🇺🇸US_ 7022 @WangCai_8_128",
+        "🇺🇸US_ 7022 @WangCai_8_129",
+        "🇺🇸US_ 7022 @WangCai_8_130",
+        "🇺🇸US_ 7022 @WangCai_8_131",
+        "🇺🇸US_ 7022 @WangCai_8_132",
+        "🇺🇸US_ 7022 @WangCai_8_133",
+        "🇺🇸US_ 7022 @WangCai_8_134",
+        "🇺🇸US_ 7022 @WangCai_8_135",
+        "🇺🇸US_ 7022 @WangCai_8_136",
+        "🇺🇸US_ 7022 @WangCai_8_137",
+        "🇺🇸US_ 7022 @WangCai_8_138",
+        "🇺🇸US_ 7022 @WangCai_8_139",
+        "🇺🇸US_ 7022 @WangCai_8_140",
+        "🇺🇸US_ 7022 @WangCai_8_141",
+        "🇺🇸US_ 7022 @WangCai_8_142",
+        "🇺🇸US_ 7022 @WangCai_8_143",
+        "🇺🇸US_ 7022 @WangCai_8_144",
+        "🇺🇸US_ 7022 @WangCai_8_145",
+        "🇺🇸US_ 7022 @WangCai_8_146",
+        "🇺🇸US_ 7022 @WangCai_8_147",
+        "🇺🇸US_ 7022 @WangCai_8_148",
+        "🇺🇸US_ 7022 @WangCai_8_149",
+        "🇺🇸US_ 7022 @WangCai_8_150",
+        "🇺🇸US_ 7022 @WangCai_8_151",
+        "🇺🇸US_ 7022 @WangCai_8_152",
+        "🇺🇸US_ 7022 @WangCai_8_153",
+        "🇺🇸US_ 7022 @WangCai_8_154",
+        "🇺🇸US_ 7022 @WangCai_8_155",
+        "🇺🇸US_ 7022 @WangCai_8_156",
+        "🇺🇸US_ 7022 @WangCai_8_157",
+        "🇺🇸US_ 7022 @WangCai_8_158",
+        "🇺🇸US_ 7022 @WangCai_8_159",
+        "🇺🇸US_ 7022 @WangCai_8_160"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "server": "104.21.224.0",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_1",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.1",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_2",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.2",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_3",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.3",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_4",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.4",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_5",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.5",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_6",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.6",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_7",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.7",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_8",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.8",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_9",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.9",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_10",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.10",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_11",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.11",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_12",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.12",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_13",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.13",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_14",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.14",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_15",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.15",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_16",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.16",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_17",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.17",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_18",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.18",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_19",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.19",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_20",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.20",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_21",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.21",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_22",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.22",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_23",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.23",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_24",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.24",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_25",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.25",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_26",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.26",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_27",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.27",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_28",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.28",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_29",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.29",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_30",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.30",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_31",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.31",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_32",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.32",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_33",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.33",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_34",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.34",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_35",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.35",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_36",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.36",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_37",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.37",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_38",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.38",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_39",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.39",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_40",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.40",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_41",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.41",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_42",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.42",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_43",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.43",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_44",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.44",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_45",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.45",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_46",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.46",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_47",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.47",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_48",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.48",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_49",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.49",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_50",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.50",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_51",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.51",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_52",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.52",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_53",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.53",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_54",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.54",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_55",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.55",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_56",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.56",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_57",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.57",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_58",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.58",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_59",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.59",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_60",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.60",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_61",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.61",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_62",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.62",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_63",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.63",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_64",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.64",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_65",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.65",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_66",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.66",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_67",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.67",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_68",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.68",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_69",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.69",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_70",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.70",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_71",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.71",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_72",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.72",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_73",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.73",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_74",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.74",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_75",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.75",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_76",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.76",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_77",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.77",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_78",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.78",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_79",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.79",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_80",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.20",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_81",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.21",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_82",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.22",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_83",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.23",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_84",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.224.24",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_85",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.25",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_86",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.26",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_87",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.27",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_88",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.28",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_89",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.29",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_90",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.30",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_91",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.31",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_92",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.32",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_93",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.33",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_94",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.226.34",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_95",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.35",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_96",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.36",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_97",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.37",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_98",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.38",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_99",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.227.39",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_100",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.40",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_101",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.41",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_102",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.42",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_103",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.43",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_104",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.228.44",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_105",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.45",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_106",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.46",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_107",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.47",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_108",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.48",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_109",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.229.49",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_110",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.50",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_111",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.51",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_112",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.52",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_113",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.53",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_114",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.230.54",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_115",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.55",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_116",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.56",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_117",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.57",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_118",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.58",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_119",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.231.59",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_120",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.60",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_121",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.61",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_122",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.62",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_123",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.63",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_124",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.232.64",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_125",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.65",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_126",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.66",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_127",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.67",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_128",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.68",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_129",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.233.69",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_130",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.70",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_131",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.71",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_132",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.72",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_133",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.73",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_134",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.234.74",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_135",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.75",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_136",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.76",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_137",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.77",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_138",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.78",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_139",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.235.79",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_140",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.80",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_141",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.81",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_142",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.82",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_143",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.83",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_144",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.236.84",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_145",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.85",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_146",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.86",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_147",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.87",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_148",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.88",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_149",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.237.89",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_150",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.90",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_151",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.91",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_152",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.92",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_153",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.93",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_154",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.94",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_155",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.95",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_156",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.96",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_157",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.97",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_158",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.98",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_159",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.239.99",
+      "server_port": 80,
+      "transport": {
+        "path": "/?ed=2048&Telegram🇨🇳 @WangCai_8",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🇺🇸US_ 7022 @WangCai_8_160",
+      "type": "vmess"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "outbound": "block"
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geoip": [
+          "cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geoip": [
+          "private"
+        ],
+        "outbound": "direct"
+      }
+    ],
+    "auto_detect_interface": false
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "direct"
+  }
+}
