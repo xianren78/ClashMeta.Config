@@ -1,0 +1,245 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1081,
+      "set_system_proxy": true
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "select",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "未知国家-5.21MB/s",
+        "未知国家-4.89MB/s",
+        "未知国家-5.48MB/s",
+        "未知国家-5.19MB/s",
+        "未知国家-4.31MB/s",
+        "中转节点-2.29MB/s",
+        "未知国家-1.56MB/s",
+        "未知国家-5.04MB/s",
+        "美国-1.12MB/s",
+        "越南-1.94MB/s"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "未知国家-5.21MB/s",
+        "未知国家-4.89MB/s",
+        "未知国家-5.48MB/s",
+        "未知国家-5.19MB/s",
+        "未知国家-4.31MB/s",
+        "中转节点-2.29MB/s",
+        "未知国家-1.56MB/s",
+        "未知国家-5.04MB/s",
+        "美国-1.12MB/s",
+        "越南-1.94MB/s"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "server": "104.21.225.197",
+      "server_port": 80,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "未知国家-5.21MB/s",
+      "type": "vmess"
+    },
+    {
+      "server": "cfcdn3.sanfencdn9.com",
+      "server_port": 2052,
+      "transport": {
+        "path": "/video/Zo98PYfE",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "de6969ab-ec16-4263-8c11-9187e8ca0782",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "未知国家-4.89MB/s",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.238.70",
+      "server_port": 80,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "未知国家-5.48MB/s",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.195",
+      "server_port": 80,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "未知国家-5.19MB/s",
+      "type": "vmess"
+    },
+    {
+      "server": "www.velvetmountain.shop",
+      "server_port": 8080,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "未知国家-4.31MB/s",
+      "type": "vmess"
+    },
+    {
+      "server": "service.ouluyun9803.com",
+      "server_port": 21003,
+      "password": "cfa17a0d-5e7d-4871-976e-f116e0818123",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "中转节点-2.29MB/s",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "cloudflare.cfgo.cc",
+      "server_port": 80,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "22a13aa2-4854-44cb-e090-ec71ab84b1ff",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "未知国家-1.56MB/s",
+      "type": "vmess"
+    },
+    {
+      "server": "104.21.225.238",
+      "server_port": 80,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "未知国家-5.04MB/s",
+      "type": "vmess"
+    },
+    {
+      "server": "cf.openxai.link",
+      "server_port": 8080,
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "aa1dbb68-bfb5-4484-f7e7-7335eac3988c",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "美国-1.12MB/s",
+      "type": "vmess"
+    },
+    {
+      "server": "103.154.63.16",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "password": "5bae27f5-3b8e-48f3-b91f-30fc680ea78f",
+      "tag": "越南-1.94MB/s",
+      "type": "trojan"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "outbound": "block"
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geoip": [
+          "cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geoip": [
+          "private"
+        ],
+        "outbound": "direct"
+      }
+    ],
+    "auto_detect_interface": false
+  },
+  "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "direct"
+  }
+}
