@@ -55,8 +55,8 @@ dns:
     - "+.lan"
     - "+.local"
   nameserver:
-  - tcp://8.8.4.4:53#♻️ 自动选择
-  - tcp://1.0.0.1:53#♻️ 自动选择
+  - "https://dns.cloudflare.com/dns-query#dns"
+  - "https://dns.google/dns-query#dns"
   default-nameserver:
   - quic://223.5.5.5:853
   - quic://223.6.6.6:853
