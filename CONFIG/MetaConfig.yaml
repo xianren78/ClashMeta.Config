@@ -11,6 +11,7 @@ external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 geo-update-interval: 24
 geodata-mode: true
+geodata-loader: memconservative
 
 geox-url:
   geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
@@ -54,14 +55,41 @@ dns:
     - "+.lan"
     - "+.local"
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+  - tcp://8.8.4.4:53#自动节点选择
+  - tcp://1.0.0.1:53#自动节点选择
+  default-nameserver:
+  - quic://223.5.5.5:853
+  - quic://223.6.6.6:853
+  - tls://1.12.12.12:853
+  - quic://[2400:3200:baba::1]:853
   proxy-server-nameserver:
-    - https://doh.pub/dns-query
+  - quic://223.5.5.5:853
+  - quic://223.6.6.6:853
+  - tls://1.12.12.12:853
+  - quic://[2400:3200:baba::1]:853
   nameserver-policy:
-    "geosite:private":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
-    "geosite:geolocation-!cn":
-      - "https://dns.cloudflare.com/dns-query#dns"
-      - "https://dns.google/dns-query#dns"
+    "+.jd.com":
+    - udp://223.5.5.5:53
+    - udp://223.6.6.6:53
+    - udp://219.147.1.66:53
+    - udp://[2400:3200:baba::1]:53
+    - udp://[240e:4e:800::66]:53
+    geosite:category-ads-all: rcode://success
+    geosite:cn:
+    - udp://223.5.5.5:53
+    - udp://223.6.6.6:53
+    - udp://219.147.1.66:53
+    - udp://[2400:3200:baba::1]:53
+    - udp://[240e:4e:800::66]:53
+    "+.msftncsi.com":
+    - udp://223.5.5.5:53
+    - udp://223.6.6.6:53
+    - udp://219.147.1.66:53
+    - udp://[2400:3200:baba::1]:53
+    - udp://[240e:4e:800::66]:53
+    "+.msftconnecttest.com":
+    - udp://223.5.5.5:53
+    - udp://223.6.6.6:53
+    - udp://219.147.1.66:53
+    - udp://[2400:3200:baba::1]:53
+    - udp://[240e:4e:800::66]:53
